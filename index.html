@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
@@ -20,7 +21,7 @@
     <header>
         <img src="images/home.svg" alt="Site Logo" width="512" height="512">
         <span>Sterling Steele</span>
-        <button id="ham-btn" class="hamburger"></button>
+        <button id="ham-btn" class="hamburger" aria-label="Navigation"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
@@ -41,8 +42,15 @@
                 <img src="images/student-photo.jpg" alt="Photo of myself and my infant son">
             </div>
         </section>
-        <section>
+        <section id="course-section">
             <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <button id="all" class="filter-btn">All</button>
+                <button id="wdd" class="filter-btn">WDD</button>
+                <button id="cse" class="filter-btn">CSE</button>
+            </div>
+            <div id="course-cards"></div>
+            <p id="total-credits"></p>
         </section>
     </main>
     <footer>
