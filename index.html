@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -28,9 +30,13 @@
         <h1>Home</h1>
         <section>
             <h2>About Me</h2>
+            <p>I live in Bluffdale, Utah, with my wife and child. I got married in June 2024, and our baby was born 16 months later. 😊 I'm currently studying Software Development through BYU Pathway. I’ve earned around 80 combined credits from several universities, but I’m working toward completing my Bachelor's degree before starting my career. Outside of school, I enjoy spending time with my family—hiking, reading, visiting loved ones, cooking, listening to audiobooks, and playing games.</p>
         </section>
         <section>
             <h2>Student Photo</h2>
+            <div>
+                <img src="images/student-photo.jpg" alt="Photo of myself and my infant son">
+            </div>
         </section>
         <section>
             <h2>Web Certificate Courses</h2>
@@ -43,8 +49,8 @@
             <a href="https://www.facebook.com/sterlingsteele1234" target="_blank"><img src="images/facebook.svg" alt="" width="16" height="16"></a>
             <a href="https://x.com/motcojcolds" target="_blank"><img src="images/twitter-x.svg" alt="Twitter-X" width="16" height="16"></a>
         </div>
-        <p>copyright symbol and current year</p>
-        <p>Last Modified</p>
+        <p>&copy;<span id="currentyear"></span> 💷 Sterling Steele 💷 Utah, USA</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
 </body>
 </html>

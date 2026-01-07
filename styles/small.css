@@ -1,5 +1,6 @@
 * {
     /* outline: 1px solid red; */
+    box-sizing: border-box;
 }
 
 /********************* HEADER **********************/
@@ -77,6 +78,36 @@ header span {
 h1 {
     margin: 1rem 10px;
     color: #3D405B;
+}
+
+section {
+    margin: 1rem;
+}
+
+section h2 {
+    background-color: #3D405B;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+section p {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+section div {
+    background-color: lightgray;
+    padding: 1rem 0;
+}
+
+section img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
 }
 
 /********************* FOOTER  **********************/
