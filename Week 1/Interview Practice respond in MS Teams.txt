@@ -1,0 +1,21 @@
+Positive Feedback for Student 1
+The black background gives the footer a sleek, modern look that suits a tech portfolio.
+Including GitHub and LinkedIn demonstrates awareness of relevant professional platforms.
+The timestamp suggests active maintenance, which reflects accountability.
+
+Corrective Feedback for Student 1
+The label “Last Modification” feels overly technical. For a portfolio, “Last Updated” would be more user-friendly.
+If the icons lack hover effects, adding them would improve interactivity and usability.
+The footer could benefit from stronger visual hierarchy. Consider reducing the size of less important text or enlarging key elements.
+Including contact information would make it easier for employers or interested parties to reach out.
+
+Positive Feedback for Student 2
+The dark blue background adds personality and visual contrast.
+Featuring more social platforms suggests broader engagement and online presence.
+
+Corrective Feedback for Student 2
+The timestamp is too technical for most viewers — seconds aren’t necessary. A more readable format like “July 17, 202X at 8:06 AM” would be better.
+The footer appears crowded. More spacing or intentional grouping would improve readability.
+If hover effects are missing, they should be added to enhance usability.
+Contact information would be a helpful addition for professional outreach.
+The icon colors don’t match their official branding, which can be confusing. The GitHub icon, in particular, suffers from low contrast. Using a lighter background and accurate icon colors would improve clarity and consistency.
