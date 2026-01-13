@@ -12,8 +12,37 @@
     <meta property="og:image" content="https://sterlingwebsite.github.io/wdd231/chamber/images/favicon.png">
     <meta property="og:url" content="https://sterlingwebsite.github.io/wdd231/chamber/directory.html">
     <meta property="og:type" content="website">
+    <script src="scripts/footer.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.png" alt="Bluffdale Chamber of Commerce Logo">
+            <h1>Bluffdale Chamber of Commerce</h1>
+        </div>
+
+        <button id="menu-toggle" aria-label="Open navigation menu"></button>
+    </header>
+    <nav id="primary-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <section class="contact-info">
+            <p>Bluffdale Chamber of Commerce</p>
+            <p>contact@bluffdalechamber.org</p>
+            <p>(801) 555-1233</p>
+        </section>
+
+        <section class="legal">
+            <p>&copy; <span id="current-year"></span> Bluffdale Chamber of Commerce</p>
+            <p>Created by Sterling Steele - WDD 231</p>
+            <p>Last Modified: <span id="last-modified"></span></p>
+        </section>
+    </footer>
 </body>
 </html>
