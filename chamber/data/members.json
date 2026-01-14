@@ -39,6 +39,22 @@
       "website": "https://eagleridgefit.example.com",
       "image": "eagle-fitness.webp",
       "membership": "Silver"
+    },
+    {
+      "name": "Rock Canyon Outdoor Supply",
+      "address": "1842 Summit Ridge Pkwy, Bluffdale, UT",
+      "phone": "801-555-4821",
+      "website": "https://rockcanyonoutdoor.example.com",
+      "image": "rock-canyon.webp",
+      "membership": "Silver"
+    },
+    {
+      "name": "BrightPath Learning Center",
+      "address": "612 Heritage Crest Rd, Bluffdale, UT",
+      "phone": "801-555-9034",
+      "website": "https://brightpathlearning.example.com",
+      "image": "brightpath-learning.jpg",
+      "membership": "Gold"
     }
   ]
 }
