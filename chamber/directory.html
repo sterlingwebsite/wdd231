@@ -12,9 +12,11 @@
     <meta property="og:image" content="https://sterlingwebsite.github.io/wdd231/chamber/images/favicon.png">
     <meta property="og:url" content="https://sterlingwebsite.github.io/wdd231/chamber/directory.html">
     <meta property="og:type" content="website">
-    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/directory-main.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/chamber-large.css">
+    <link rel="stylesheet" href="styles/chamber-media-queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -22,23 +24,31 @@
 </head>
 <body>
     <header>
-        <div class="logo-area">
-            <img src="images/logo.png" alt="Bluffdale Chamber of Commerce Logo">
+        <div class="branding">
+            <img src="images/favicon.png" alt="Bluffdale Chamber of Commerce Logo">
             <p class="site-name">Bluffdale Chamber of Commerce</p>
         </div>
 
-        <button id="menu-toggle" aria-label="Open navigation menu"></button>
+        <button id="ham-btn" class="hamburger" aria-label="Navigation button"></button>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav id="primary-nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
-            <li><a href="discover.html">Discover</a></li>
-        </ul>
-    </nav>
+    
     <main>
         <h1>Business Directory</h1>
+        <div class="view-buttons">
+            <button id="gridBtn">Grid View</button>
+            <button id="listBtn">List View</button>
+        </div>
+        <section id="members" class="grid"></section>
     </main>
     <footer>
         <section class="contact-info">

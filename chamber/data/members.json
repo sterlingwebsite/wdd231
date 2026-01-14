@@ -1,0 +1,44 @@
+{
+  "members": [
+    {
+      "name": "Bluffdale Bean Co.",
+      "address": "1450 Redwood Rd, Bluffdale, UT",
+      "phone": "801-555-1122",
+      "website": "https://bluffdalebean.example.com",
+      "image": "bean-co.webp",
+      "membership": "Gold"
+    },
+    {
+      "name": "Mountain View Tech Repair",
+      "address": "92 Heritage Crest Way, Bluffdale, UT",
+      "phone": "801-555-3344",
+      "website": "https://mvtech.example.com",
+      "image": "mv-tech.jpg",
+      "membership": "Silver"
+    },
+    {
+      "name": "Wasatch Wellness Spa",
+      "address": "3100 Harmon Day Dr, Bluffdale, UT",
+      "phone": "801-555-7788",
+      "website": "https://wasatchwellness.example.com",
+      "image": "wellness-spa.jpg",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Sunrise Accounting Group",
+      "address": "540 Porter Rockwell Blvd, Bluffdale, UT",
+      "phone": "801-555-9911",
+      "website": "https://sunriseacct.example.com",
+      "image": "sunrise-acct.webp",
+      "membership": "Gold"
+    },
+    {
+      "name": "Eagle Ridge Fitness",
+      "address": "2100 Redwood Rd, Bluffdale, UT",
+      "phone": "801-555-6677",
+      "website": "https://eagleridgefit.example.com",
+      "image": "eagle-fitness.webp",
+      "membership": "Silver"
+    }
+  ]
+}

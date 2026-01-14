@@ -1,11 +1,180 @@
+/* color scheme */
+:root {
+    --primary: #1a4d8f;
+    --primary-light: #3f7ccf;
+    --primary-dark: #0f2f57;
+    --accent: #e8a628;
+    --accent-light: #f3c86a;
+    --bg: #f5f7fa;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --text-light: #555;
+    --border: #d9d9d9;
+}
+
+/* google font */
 body {
-  font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* global layout */
 header {
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.branding img {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+}
+
+nav a.active {
+    border-bottom: 3px solid var(--accent);
+}
+
+/* menu button */
+nav {
+    display: none;
+}
+
+#nav-bar.show {
+    display: block;
+}
+
+#ham-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+footer {
+    background: var(--primary-dark);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* directory.html */
+/* <main> */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* view buttons*/
+.view-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.view-buttons button {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary);
+    background: var(--primary-light);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.view-buttons button:hover {
+    background: var(--primary);    
+}
+
+/* members section */
+#members.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+#members.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.member-card {
+    border: 1px solid var(--border);
+    padding: 1rem;
+    background: var(--surface);
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.member-card img {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.member-card h2 {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.member-card a {
+    color: var(--accent);
+    font-weight: 600;
 }
