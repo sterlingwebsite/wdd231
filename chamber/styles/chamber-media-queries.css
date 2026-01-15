@@ -1,3 +1,16 @@
+:root {
+    --primary: #1a4d8f;
+    --primary-light: #295188;
+    --primary-dark: #0f2f57;
+    --accent: #583f11;
+    --accent-light: #f3c86a;
+    --bg: #f5f7fa;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --text-light: #555;
+    --border: #d9d9d9;
+}
+
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
@@ -15,5 +28,28 @@
 
     nav {
         display: block;
+    }
+    /* index.html */
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 1, 14, 0.65);
+        padding: 2rem;
+        border-radius: 8px;
+        max-width: 90%;
+        color: var(--surface);
+    }
+
+    /* current events */
+    .current-events {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .current-events h2 {
+        grid-column: 1 / -1;
     }
 }

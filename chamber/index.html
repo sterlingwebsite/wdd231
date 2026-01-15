@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 | Chamber Home Page</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-media-queries.css">
+    <!-- js -->
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.jpg" type="image/png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- open graph -->
+    <meta property="og:title" content="WDD 231 Chamber Home Page for Local Business Members">
+    <meta property="og:description" content="Connecting Bluffdale businesses, community members, and opportunities through events, resources, and local support.">
+    <meta property="og:image" content="https://sterlingwebsite.github.io/wdd231/chamber/images/favicon.jpg">
+    <meta property="og:url" content="https://sterlingwebsite.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/favicon.jpg" alt="Bluffdale Chamber of Commerce Logo">
+            <p class="site-name">Bluffdale Chamber of Commerce</p>
+        </div>
+
+        <button id="ham-btn" class="hamburger" aria-label="Navigation button"></button>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero-small.jpg" media="(max-width: 600px)">
+                <img src="images/hero-large.jpg" alt="Bluffdale community and businesses">
+            </picture>
+
+            <div class="hero-content">
+                <h2>Welcome to the Bluffdale Chamber of Commerce</h2>
+                <p>Supporting local businesses, strengthening community connections.</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <section class="current-events">
+            <h2>Current Events</h2>
+
+            <article class="event-card">
+                <h3>Business Networking Breakfast</h3>
+                <p class="event-date">January 28, 2026 &bull; 8:00 AM</p>
+                <p>Join local business owners for a morning of networking, collaboration, and community updates.</p>                
+            </article>
+
+            <article class="event-card">
+                <h3>Bluffdale Winter Market</h3>
+                <p class="event-date">February 3, 2026 &bull; 10:00 AM</p>
+                <p>Support local vendors and discover new products at our seasonal community market.</p>
+            </article>
+
+            <article class="event-card">
+                <h3>Small Business Workshop</h3>
+                <p class="event-date">February 12, 2026 &bull; 6:30 PM</p>
+                <p>Learn practical strategies for marketing, finance, and growth from chamber experts.</p>
+            </article>
+        </section>
+
+        <section class="weather">
+            <h2>Current Weather</h2>
+
+            <div class="weather-card">
+                <p class="weather-temp"><span id="temp"></span>&deg;F</p>
+                <p class="weather-desc" id="description"></p>
+                <img id="weather-icon" alt="Weather icon">
+                <p class="weather-humidity">Humidity: <span id="humidity"></span>%</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="contact-info">
+            <p>Bluffdale Chamber of Commerce</p>
+            <p>contact@bluffdalechamber.org</p>
+            <p>(801) 555-1233</p>
+        </section>
+
+        <section class="legal">
+            <p>&copy; <span id="current-year"></span> Bluffdale Chamber of Commerce</p>
+            <p>Created by Sterling Steele - WDD 231</p>
+            <p>Last Modified: <span id="last-modified"></span></p>
+        </section>
+    </footer>
+</body>
+</html>
