@@ -23,6 +23,22 @@ function displayWeather(data) {
     document.querySelector("#weather-icon").setAttribute("src", iconSrc);
 
     document.querySelector("#humidity").textContent = data.main. humidity;
+
+    document.querySelector("#high").textContent = Math.round(data.main.temp_max);
+    document.querySelector("#low").textContent = Math.round(data.main.temp_min);
+
+    const sunrise = new Date(data.sys.sunrise * 1000);
+    const sunset = new Date(data.sys.sunset * 1000);
+
+    document.querySelector("#sunrise").textContent = sunrise.toLocaleTimeString([], {
+        hour: "numeric",
+        minute: "2-digit"
+    });
+
+    document.querySelector("#sunset").textContent = sunset.toLocaleTimeString([], {
+        hour: "numeric",
+        minute: "2-digit"
+    });
 }
 
 getWeather();

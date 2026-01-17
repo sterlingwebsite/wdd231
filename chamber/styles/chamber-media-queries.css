@@ -19,6 +19,12 @@
         padding: 1rem;
         gap: 1rem;
     }
+
+    /* spotlights */
+    .spotlight-body {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (min-width: 800px) {
@@ -51,5 +57,10 @@
 
     .current-events h2 {
         grid-column: 1 / -1;
+    }
+
+    /* forecast */
+    .forecast-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

@@ -265,6 +265,15 @@ main {
     box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }
 
+.weather-card p {
+    margin: 0.3rem 0;
+}
+
+.weather-high, .weather-low, .weather-humidity, .weather-sunrise, .weather-sunset {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
 .weather-temp {
     font-size: 2.5rem;
     font-weight: 700;
@@ -282,7 +291,86 @@ main {
     height: 80px;
 }
 
-.weather-humidity {
-    margin-top: 0.5rem;
+/* 3-day forecast */
+.forecast {
+    padding: 1.5rem;
+    background: var(--bg);
+    border-radius: 8px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.forecast-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.forecast-day {
+    background: var(--surface);
+    padding: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+/* spotlights */
+.spotlights {
+    padding: 1.5rem;
+    background: var(--bg);
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.spotlights h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.spotlight-card {
+    background: var(--surface);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.spotlight-header {
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-header h3 {
+    margin: 0;
+}
+
+.spotlight-tagline {
+    font-style: italic;
     color: var(--text-light);
+    margin: 0.25rem 0 0.75rem 0;
+}
+
+.spotlight-divider {
+    border-top: 2px solid var(--border);
+    margin: 0.75rem 0;
+}
+
+.spotlight-body {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotlight-body img {
+    width: auto;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.spotlight-info p {
+    margin: 0.25rem 0;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
 }

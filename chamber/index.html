@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 231 | Chamber Home Page</title>
+    <meta name="author" content="Sterling Steele">
+    <meta name="description" content="Discover Bluffdale’s business community, local events, and resources offered by the Bluffdale Chamber of Commerce to support growth and connection.">
     <!-- css -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
@@ -11,6 +13,8 @@
     <!-- js -->
     <script src="scripts/chamber.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
     <!-- favicon -->
     <link rel="icon" href="images/favicon.jpg" type="image/png">
     <!-- google fonts -->
@@ -37,9 +41,9 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -87,8 +91,42 @@
                 <p class="weather-temp"><span id="temp"></span>&deg;F</p>
                 <p class="weather-desc" id="description"></p>
                 <img id="weather-icon" alt="Weather icon">
+
+                <p class="weather-high">High: <span id="high"></span>&deg;F</p>
+                <p class="weather-low">Low: <span id="low"></span>&deg;F</p>
+                
                 <p class="weather-humidity">Humidity: <span id="humidity"></span>%</p>
+
+                <p class="weather-sunrise">Sunrise: <span id="sunrise"></span></p>
+                <p class="weather-sunset">Sunset: <span id="sunset"></span></p>
             </div>
+        </section>
+
+        <section class="forecast">
+            <h2>3-Day Forecast</h2>
+
+            <div class="forecast-grid">
+                <div class="forecast-day">
+                    <h3 id="day1-name"></h3>
+                    <p>High: <span id="day1-high"></span>&deg;F</p>
+                </div>
+
+                <div class="forecast-day">
+                    <h3 id="day2-name"></h3>
+                    <p>High: <span id="day2-high"></span>&deg;F</p>
+                </div>
+
+                <div class="forecast-day">
+                    <h3 id="day3-name"></h3>
+                    <p>High: <span id="day3-high"></span>&deg;F</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+
+            <div id="spotlight-container"></div>
         </section>
     </main>
 
