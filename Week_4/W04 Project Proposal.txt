@@ -1,0 +1,5 @@
+The subject for my website project is “World‑Building Codex for a Fictional Setting.” This website will function as a small, structured encyclopedia for a fictional world.
+
+The site will include categorized entries such as factions, locations, creatures, artifacts, and cultural concepts. Each entry will contain brief descriptive information, and users will be able to explore the fictional world as they navigate through the website.
+
+I chose this subject because it allows me to combine creativity with technical practice. Building a fictional world is enjoyable, and this project gives me a chance to test and strengthen my programming skills.
