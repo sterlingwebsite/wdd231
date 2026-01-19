@@ -100,6 +100,10 @@ function displayCourses(courseList) {
             <p>${course.subject} ${course.number}</p>
         `;
         }
+
+        card.addEventListener("click", () => {
+            displayCourseDetails(course);
+        });
     
         container.appendChild(card);
     });
