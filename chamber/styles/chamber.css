@@ -5,7 +5,8 @@
     --primary-dark: #0f2f57;
     --accent: #583f11;
     --accent-light: #f3c86a;
-    --bg: #f5f7fa;
+    --bg: #faf8f5;
+    /* --page-bg: #d8d1c8; */
     --surface: #ffffff;
     --text: #1a1a1a;
     --text-light: #555;
@@ -22,6 +23,10 @@ h1, h2, h3 {
 }
 
 /* global layout */
+
+/* body {
+    background: linear-gradient(180deg, var(--page-bg) 0%, var(--surface) 100%);
+} */
 header {
     background: var(--primary);
     color: white;
