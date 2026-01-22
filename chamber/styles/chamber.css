@@ -383,3 +383,44 @@ main {
     overflow-wrap: anywhere;
     line-height: 1.5;
 }
+
+/* join.html */
+.membership-cards {
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.card {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card button {
+    margin-top: 0.5rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* modals */
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 400px;
+}
+
+dialog::backdrop {
+    background: rgba(0,0,0,0.4);
+}
