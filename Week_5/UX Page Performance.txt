@@ -1,0 +1,11 @@
+UX: Page Performance
+
+Low‑Hanging Fruit from the Performance Metrics of churchofjesuschrist.org
+
+One improvement would be reducing unused JavaScript. The report shows 223 KB of unused JS across Adobe Tag Manager, PureCloud, and shared chunks. Deferring non‑critical scripts, removing unused polyfills, loading analytics after user interaction, and splitting vendor bundles would help reduce this overhead.
+
+Another opportunity is improving image delivery. Several images are larger than their displayed size, under‑compressed, or not fully optimized for responsive loading. Adjusting image dimensions and compression levels would improve load performance.
+
+I could also address layout shifts in the hero banner, which shifts three times during load. Adding explicit width and height attributes, reserving space for dynamic content, preventing font‑related reflow, or ensuring the banner doesn’t resize after load would help reduce CLS.
+
+Finally, cache lifetimes could be improved. For example, Adobe Tag Manager assets have only a 1‑hour TTL. Increasing cache durations for static JavaScript, using immutable caching strategies, or moving analytics scripts to long‑cache CDN paths would improve repeat‑visit performance.
