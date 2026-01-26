@@ -75,8 +75,12 @@ section h3 {
 
 section img {
     border: none;
-    width: 100%;
+    width: 50%;
     height: auto;
+}
+
+.mobile-wireframe {
+    width: 25%;
 }
 
 footer {
