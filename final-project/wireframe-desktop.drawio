@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.1.0">
+  <diagram name="Page-1" id="KTcWIIlUFYd4Hw0wV2u2">
+    <mxGraphModel dx="1418" dy="780" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="240" width="760" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Word-Building Codex" vertex="1">
+          <mxGeometry height="60" width="280" x="280" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Logo" vertex="1">
+          <mxGeometry height="60" width="60" x="130" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="About" vertex="1">
+          <mxGeometry height="40" width="80" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cultures" vertex="1">
+          <mxGeometry height="40" width="80" x="580" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Artifacts" vertex="1">
+          <mxGeometry height="40" width="80" x="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Creatures" vertex="1">
+          <mxGeometry height="40" width="80" x="380" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Locations" vertex="1">
+          <mxGeometry height="40" width="80" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Factions" vertex="1">
+          <mxGeometry height="40" width="80" x="180" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Home" vertex="1">
+          <mxGeometry height="40" width="80" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="360" width="760" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-19" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;Explore the World&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;A structured encyclopedia for a fictional setting&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="520" x="160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Factions" vertex="1">
+          <mxGeometry height="120" width="200" x="40" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Locations" vertex="1">
+          <mxGeometry height="120" width="200" x="320" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Creatures" vertex="1">
+          <mxGeometry height="120" width="200" x="600" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Artifacts" vertex="1">
+          <mxGeometry height="120" width="200" x="180" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cultures" vertex="1">
+          <mxGeometry height="120" width="200" x="460" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Featured Entry&lt;/font&gt;" vertex="1">
+          <mxGeometry height="240" width="760" x="40" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="k1vHzz5Z9NrT3Ut79oJK-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Footer&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="760" x="40" y="1320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

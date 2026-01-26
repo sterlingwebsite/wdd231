@@ -1,0 +1,86 @@
+:root {
+    /* Color Scheme */
+	--text: #ffffff;
+	--background1: #222f3f;
+	--background2: #3e5674;
+	--background3: #5c7faa;
+	--background4: #79a6dd;
+	--background5: #8bbfff;
+	--background6: #ffffff;
+	--accent1: #d4a373;
+}
+
+* {
+    color: var(--text);
+    border: 1px solid var(--accent1);
+    background-color: var(--background1);
+    padding: 1.5rem;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+html {
+    background-color: var(--background6);
+}
+
+body {
+    background-color: var(--background3);
+}
+
+header, main, footer {
+    background-color: transparent;
+}
+
+h1, h2, footer p {
+    color: var(--text);
+    background-color: var(--background1);
+}
+
+section p, section p strong, h3, img {
+    color: var(--text);
+    background-color: transparent;
+}
+
+header {
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+main {
+    border: none;
+    padding-bottom: 0;
+}
+
+section p strong {
+    border: none;
+    padding-left: 0;
+}
+
+section p {
+    border: none;
+    padding-bottom: 0;
+}
+
+section {
+    margin-bottom: 1.5rem;
+    background-color: var(--background2);
+}
+
+section h3 {
+    border: none;
+    padding-bottom: 0;
+}
+
+section img {
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
