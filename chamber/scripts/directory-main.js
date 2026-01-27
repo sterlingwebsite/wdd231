@@ -13,7 +13,7 @@ function displayMembers(members) {
 
     members.forEach(member => {
         const card = document.createElement('div');
-        card.classList.add('member-card');
+        card.classList.add('member-card', 'card-base');
 
         card.innerHTML = `
         <img src="images/${member.image}" alt="${member.name} logo">

@@ -11,6 +11,10 @@
     --text: #1a1a1a;
     --text-light: #555;
     --border: #d9d9d9;
+    --shadow: 0 2px 4px rgba(0,0,0,0.25);
+    --shadow-light: 0 2px 8px rgba(0,0,0,0.05);
+    --white: #ffffff;
+    --black: #1a1a1a;
 }
 
 /* google font */
@@ -23,10 +27,6 @@ h1, h2, h3 {
 }
 
 /* global layout */
-
-/* body {
-    background: linear-gradient(180deg, var(--page-bg) 0%, var(--surface) 100%);
-} */
 
 *,
 *::before,
@@ -145,7 +145,6 @@ footer a[href^="tel"] {
 img {
     max-width: 100%;
     height: auto;
-    display: inline-block;
 }
 
 html, body {
@@ -199,12 +198,8 @@ main {
 
 .member-card {
     border: 1px solid var(--border);
-    padding: 1rem;
-    background: var(--surface);
-    border-radius: 8px;
     text-align: center;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .member-card img {
@@ -269,11 +264,7 @@ main {
 }
 
 .event-card {
-    background: var(--surface);
-    padding: 1rem;
     margin-bottom: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
     text-align: center;
 }
 
@@ -301,7 +292,7 @@ main {
     padding: 1.5rem 2.5rem;
     border-radius: 8px;
     display: inline-block;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    box-shadow: var(--shadow);
 }
 
 .weather-card p {
@@ -349,7 +340,7 @@ main {
     padding: 1rem;
     border-radius: 6px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    box-shadow: var(--shadow);
 }
 
 /* spotlights */
@@ -366,11 +357,7 @@ main {
 }
 
 .spotlight-card {
-    background: var(--surface);
-    border-radius: 8px;
-    padding: 1rem;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
     text-align: center;
 }
 
@@ -421,7 +408,7 @@ main {
     padding: 2rem;
     background-color: var(--second-bg);
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: var(--shadow-light);
     display: grid;
     gap: 1.25rem;
 }
@@ -458,7 +445,7 @@ input, select, textarea {
 
 input:focus, select:focus, textarea:focus {
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(30, 77, 123, 0.2);
+    box-shadow: var(--shadow);
     outline: none;
 }
 
@@ -489,7 +476,7 @@ button[type="submit"]:hover {
     border: 1px solid var(--border);
     border-radius: 8px;
     background: var(--bg);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: var(--shadow);
 }
 
 .card h3 {
@@ -578,3 +565,11 @@ h1 {
 .item6 { grid-area: item6; }
 .item7 { grid-area: item7; }
 .item8 { grid-area: item8; }
+
+/* Utility Classes */
+.card-base {
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+}

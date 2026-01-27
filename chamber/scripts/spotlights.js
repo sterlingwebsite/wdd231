@@ -10,7 +10,7 @@ async function loadSpotlights() {
 
     selected.forEach(member => {
         const card = document.createElement("div");
-        card.classList.add("spotlight-card");
+        card.classList.add("spotlight-card", "card-base");
 
         const tagline = generateTagline(member.main);
 
