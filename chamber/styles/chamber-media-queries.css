@@ -69,8 +69,10 @@
         gap: 2rem;
         align-items: start;
     }
+}
 
-    /* discover.html */
+@media (min-width: 1250px) {
+/* discover.html */
     .discover-grid {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
@@ -87,4 +89,3 @@
         filter: brightness(1.1);
     }
 }
-

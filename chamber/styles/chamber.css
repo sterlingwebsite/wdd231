@@ -532,7 +532,6 @@ h1 {
     color: var(--surface);
     padding: 1rem;
     border-radius: 10px;
-    border: 1px solid var(--accent-light);
     text-align: center;
     /* text outline */
     text-shadow:
@@ -572,4 +571,40 @@ h1 {
     border-radius: 8px;
     background: var(--surface);
     box-shadow: var(--shadow);
+}
+
+/* discover.html */
+article, .discover-card {
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--white)
+}
+
+h2 {
+    background-color: var(--primary-dark);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+figure {
+    background-color: transparent;
+}
+
+button {
+    background-color: var(--primary-dark);
+    color: var(--white);
+    border-radius: 10px;
+    padding: 0.5rem 0.6rem;
+    border: var(--border);
+    box-shadow: var(--shadow);
+}
+
+body {
+    background-color: var(--second-bg);
+}
+
+section {
+    border-radius: 10px;
 }

@@ -4,7 +4,7 @@ const grid = document.querySelector(".discover-grid");
 
 function createDiscoverCard(item, index) {
     const card = document.createElement("article");
-    card.classList.add("discover-card",`item${index +1}`);
+    card.classList.add("discover-card",`item${index +1}`, "card-base");
 
     card.innerHTML = `
     <h2>${item.title}</h2>
