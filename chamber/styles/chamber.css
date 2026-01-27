@@ -530,4 +530,51 @@ dialog button {
     margin-top: 0.4rem;
 }
 
-/* thankyou.html */
+/* discover.html */
+.visitor-message {
+    background: var(--primary);
+    color: var(--surface);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--accent-light);
+    font-size: 1.1rem;
+}
+
+h1 {
+    background-color: var(--primary);
+    color: var(--surface);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--accent-light);
+    text-align: center;
+    /* text outline */
+    text-shadow:
+        -1px -1px 0 var(--primary-dark),
+        1px -1px 0 var(--primary-dark),
+        -1px 1px 0 var(--primary-dark),
+        1px 1px 0 var(--primary-dark);
+}
+
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item5"
+    "item6"
+    "item7"
+    "item8";
+}
+
+.item1 { grid-area: item1; }
+.item2 { grid-area: item2; }
+.item3 { grid-area: item3; }
+.item4 { grid-area: item4; }
+.item5 { grid-area: item5; }
+.item6 { grid-area: item6; }
+.item7 { grid-area: item7; }
+.item8 { grid-area: item8; }

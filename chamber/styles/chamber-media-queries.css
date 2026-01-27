@@ -58,4 +58,23 @@
         gap: 2rem;
         align-items: start;
     }
+
+    /* discover.html */
+    .discover-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "item1 item2 item3 item4"
+        "item5 item6 item7 item8";
+    }
+}
+
+@media (min-width: 641px) {
+    .discover-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "item1 item2"
+        "item3 item4"
+        "item5 item6"
+        "item7 item8";
+    }
 }

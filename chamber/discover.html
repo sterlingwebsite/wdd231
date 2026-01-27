@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231 | Chamber Directory</title>
+    <title>WDD 231 | Chamber Home Page</title>
     <meta name="author" content="Sterling Steele">
-    <meta name="description" content="“Business directory for the Chamber of Commerce featuring member listings, contact details, and membership levels.">
-    <link rel="icon" href="images/favicon.jpg" type="image/png">
-    <meta property="og:title" content="WDD 231 Chamber Directory for Local Business Members">
-    <meta property="og:description" content="Business directory for the Chamber of Commerce featuring member listings, contact details, and membership levels.">
-    <meta property="og:image" content="https://sterlingwebsite.github.io/wdd231/chamber/images/favicon.jpg">
-    <meta property="og:url" content="https://sterlingwebsite.github.io/wdd231/chamber/directory.html">
-    <meta property="og:type" content="website">
-    <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/directory-main.js" defer></script>
+    <meta name="description" content="Explore local attractions, businesses, and points of interest in our community. Discover what makes our area vibrant, welcoming, and full of opportunity.">
+    <!-- css -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/chamber-media-queries.css">
+    <!-- js -->
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/visitor-message.js" defer></script>
+    <script type="module" src="scripts/discover-card.js" defer></script>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.jpg" type="image/png">
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
+    <!-- open graph -->
+    <meta property="og:title" content="WDD 231 Chamber Discover Page for Local Business Members">
+    <meta property="og:description" content="Explore local attractions, businesses, and hidden gems that showcase the heart of our community.">
+    <meta property="og:image" content="https://sterlingwebsite.github.io/wdd231/chamber/images/favicon.jpg">
+    <meta property="og:url" content="https://sterlingwebsite.github.io/wdd231/chamber/discover.html">
+    <meta property="og:type" content="website">
 </head>
 <body>
     <header>
@@ -29,7 +34,7 @@
             <p class="site-name">Bluffdale Chamber of Commerce</p>
         </div>
 
-        <button id="ham-btn" class="hamburger" aria-label="Navigation button"></button>
+        <button id="ham-btn" class="hamburger" type="button" aria-label="Navigation button"></button>
 
         <nav id="nav-bar" class="navigation">
             <ul>
@@ -41,15 +46,14 @@
             </ul>
         </nav>
     </header>
-    
+
     <main>
-        <h1>Business Directory</h1>
-        <div class="view-buttons">
-            <button id="gridBtn">Grid View</button>
-            <button id="listBtn">List View</button>
-        </div>
-        <section id="members" class="grid"></section>
+        <h1>Discover</h1>
+        <section id="visitor-message" class="visitor-message"></section>
+
+        <section class="discover-grid"></section>
     </main>
+
     <footer>
         <section class="contact-info">
             <p>Bluffdale Chamber of Commerce</p>
