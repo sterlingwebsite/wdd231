@@ -77,5 +77,14 @@
         "item1 item2 item3 item4"
         "item5 item6 item7 item8";
     }
+
+    .discover-card img {
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .discover-card img:hover {
+        transform: scale(1.03);
+        filter: brightness(1.1);
+    }
 }
 
