@@ -22,7 +22,7 @@ function displayWeather(data) {
     const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     document.querySelector("#weather-icon").setAttribute("src", iconSrc);
 
-    document.querySelector("#humidity").textContent = data.main. humidity;
+    document.querySelector("#humidity").textContent = data.main.humidity;
 
     document.querySelector("#high").textContent = Math.round(data.main.temp_max);
     document.querySelector("#low").textContent = Math.round(data.main.temp_min);
