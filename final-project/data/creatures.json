@@ -1,0 +1,180 @@
+{
+    "creatures": [
+        {
+            "id": 1,
+            "name": "Azure Sky Hunter",
+            "species": "Dragonfly",
+            "size": "Medium",
+            "habitat": "Wetlands and riverbanks",
+            "diet": "Carnivore",
+            "dangerLevel": "Low",
+            "description": "A swift aerial predator known for its iridescent wings and unmatched agility.",
+            "image": "images/azure-sky-hunter.png"
+        },
+        {
+            "id": 2,
+            "name": "Emerald Reaper",
+            "species": "Praying Mantis",
+            "size": "Medium",
+            "habitat": "Forest canopy",
+            "diet": "Carnivore",
+            "dangerLevel": "Medium",
+            "description": "A patient ambush hunter revered in folklore as a silent forest guardian.",
+            "image": "images/emerald-reaper.png"
+        },
+        {
+            "id": 3,
+            "name": "Shadow Weaver",
+            "species": "Spider",
+            "size": "Small",
+            "habitat": "Caves and abandoned ruins",
+            "diet": "Carnivore",
+            "dangerLevel": "High",
+            "description": "A nocturnal web‑spinner whose silk is prized for its strength and magical properties.",
+            "image": "images/shadow-weaver.png"
+        },
+        {
+            "id": 4,
+            "name": "Ironclad Burrower",
+            "species": "Beetle",
+            "size": "Large",
+            "habitat": "Underground tunnels",
+            "diet": "Herbivore",
+            "dangerLevel": "Medium",
+            "description": "A heavily armored beetle capable of tunneling through compacted earth with ease.",
+            "image": "images/ironclad-burrower.png"
+        },
+        {
+            "id": 5,
+            "name": "Duskwing Oracle",
+            "species": "Moth",
+            "size": "Medium",
+            "habitat": "Moonlit forests",
+            "diet": "Herbivore",
+            "dangerLevel": "Low",
+            "description": "A gentle creature believed to carry omens in the patterns of its wings.",
+            "image": "images/duskwing-oracle.png"
+        },
+        {
+            "id": 6,
+            "name": "Crimson Stinger",
+            "species": "Wasp",
+            "size": "Small",
+            "habitat": "Rocky cliffs",
+            "diet": "Carnivore",
+            "dangerLevel": "High",
+            "description": "A territorial wasp known for its painful sting and aggressive swarming behavior.",
+            "image": "images/crimson-stinger.png"
+        },
+        {
+            "id": 7,
+            "name": "Gloomcrawler",
+            "species": "Centipede",
+            "size": "Large",
+            "habitat": "Deep forest undergrowth",
+            "diet": "Carnivore",
+            "dangerLevel": "Extreme",
+            "description": "A venomous centipede that hunts in darkness, feared for its speed and toxicity.",
+            "image": "images/gloomcrawler.png"
+        },
+        {
+            "id": 8,
+            "name": "Sunscale Scuttler",
+            "species": "Scorpion",
+            "size": "Medium",
+            "habitat": "Desert dunes",
+            "diet": "Carnivore",
+            "dangerLevel": "High",
+            "description": "A desert scorpion whose golden carapace reflects sunlight to blind predators.",
+            "image": "images/sunscale-scuttler.png"
+        },
+        {
+            "id": 9,
+            "name": "Verdant Harvester",
+            "species": "Ant",
+            "size": "Small",
+            "habitat": "Grasslands",
+            "diet": "Omnivore",
+            "dangerLevel": "Low",
+            "description": "A cooperative species known for constructing vast underground colonies.",
+            "image": "images/verdant-harvester.webp"
+        },
+        {
+            "id": 10,
+            "name": "Nightfire Lantern",
+            "species": "Firefly",
+            "size": "Small",
+            "habitat": "Swamps",
+            "diet": "Omnivore",
+            "dangerLevel": "Low",
+            "description": "A bioluminescent insect whose glow intensifies during storms.",
+            "image": "images/nightfire-lantern.png"
+        },
+        {
+            "id": 11,
+            "name": "Thornback Strider",
+            "species": "Stick Insect",
+            "size": "Medium",
+            "habitat": "Dense forest",
+            "diet": "Herbivore",
+            "dangerLevel": "Low",
+            "description": "A master of camouflage, blending seamlessly with branches and bark.",
+            "image": "images/thornback-strider.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Amber Dune Skipper",
+            "species": "Grasshopper",
+            "size": "Small",
+            "habitat": "Arid plains",
+            "diet": "Herbivore",
+            "dangerLevel": "Low",
+            "description": "A swift jumper capable of crossing long distances in a single bound.",
+            "image": "images/amber-dune-skipper.webp"
+        },
+        {
+            "id": 13,
+            "name": "Frostbite Crawler",
+            "species": "Spider",
+            "size": "Medium",
+            "habitat": "Frozen caverns",
+            "diet": "Carnivore",
+            "dangerLevel": "High",
+            "description": "A cold‑adapted spider whose venom numbs its prey instantly.",
+            "image": "images/frostbite-crawler.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Emerald Shell Roller",
+            "species": "Beetle",
+            "size": "Small",
+            "habitat": "Savannas",
+            "diet": "Detritivore",
+            "dangerLevel": "Low",
+            "description": "A beetle revered for its strength and symbolic connection to renewal.",
+            "image": "images/emerald-shell-roller.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Stormwing Skimmer",
+            "species": "Dragonfly",
+            "size": "Medium",
+            "habitat": "High-altitude lakes",
+            "diet": "Carnivore",
+            "dangerLevel": "Medium",
+            "description": "A rare dragonfly that thrives in turbulent mountain winds.",
+            "image": "images/stormwing-skimmer.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Obsidian Fanglurker",
+            "species": "Spider",
+            "size": "Large",
+            "habitat": "Volcanic soil",
+            "diet": "Carnivore",
+            "dangerLevel": "Extreme",
+            "description": "A burrowing predator that strikes from hidden pits with terrifying speed.",
+            "image": "images/obsidian-fanglurker.jpg"
+        }
+    ]
+}

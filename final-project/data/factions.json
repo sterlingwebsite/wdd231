@@ -1,0 +1,180 @@
+{
+    "factions": [
+        {
+            "id": 1,
+            "name": "The Skyborne Concord",
+            "alignment": "Noble",
+            "territory": "High-altitude lakes and mountain ranges",
+            "leader": "Aeralis Windseer",
+            "symbol": "Twin dragonfly wings",
+            "colors": ["Azure", "Silver"],
+            "description": "A coalition of aerial tribes who value freedom, diplomacy, and mastery of the skies.",
+            "image": "images/skyborne-concord.png"
+        },
+        {
+            "id": 2,
+            "name": "Verdant Circle",
+            "alignment": "Neutral Good",
+            "territory": "Deep forest sanctuaries",
+            "leader": "Elder Mossroot",
+            "symbol": "A spiraling leaf",
+            "colors": ["Green", "Gold"],
+            "description": "A druidic order dedicated to preserving natural balance and nurturing insect life.",
+            "image": "images/verdant-circle.png"
+        },
+        {
+            "id": 3,
+            "name": "The Obsidian Brood",
+            "alignment": "Chaotic Evil",
+            "territory": "Volcanic caverns",
+            "leader": "Queen Ashfang",
+            "symbol": "A black spider fang",
+            "colors": ["Black", "Crimson"],
+            "description": "A ruthless faction of subterranean predators who thrive in molten darkness.",
+            "image": "images/obsidian-brood.png"
+        },
+        {
+            "id": 4,
+            "name": "Ironcarapace Legion",
+            "alignment": "Lawful Neutral",
+            "territory": "Underground fortresses",
+            "leader": "General Ferrumhide",
+            "symbol": "A beetle shell crest",
+            "colors": ["Bronze", "Steel"],
+            "description": "A disciplined army of armored warriors modeled after the resilience of beetles.",
+            "image": "images/ironcarapace-legion.png"
+        },
+        {
+            "id": 5,
+            "name": "Moonweaver Enclave",
+            "alignment": "Mystic Neutral",
+            "territory": "Moonlit forest groves",
+            "leader": "Oracle Luminara",
+            "symbol": "A glowing moth wing",
+            "colors": ["White", "Lavender"],
+            "description": "A secretive order of seers who interpret omens through moth patterns and starlight.",
+            "image": "images/moonweaver-enclave.png"
+        },
+        {
+            "id": 6,
+            "name": "Crimson Swarm",
+            "alignment": "Chaotic Neutral",
+            "territory": "Rocky cliff hives",
+            "leader": "Stinglord Vesprax",
+            "symbol": "A dripping stinger",
+            "colors": ["Red", "Black"],
+            "description": "A fierce wasp‑based faction known for aggressive expansion and swarm tactics.",
+            "image": "images/crimson-swarm.png"
+        },
+        {
+            "id": 7,
+            "name": "Gloomroot Covenant",
+            "alignment": "Neutral Evil",
+            "territory": "Shadowed forest undergrowth",
+            "leader": "The Whispering Many",
+            "symbol": "A centipede coil",
+            "colors": ["Dark Green", "Umber"],
+            "description": "A hive‑minded cult of venomous hunters who worship the power of decay.",
+            "image": "images/gloomroot-covenant.png"
+        },
+        {
+            "id": 8,
+            "name": "Sunscale Dominion",
+            "alignment": "Lawful Evil",
+            "territory": "Desert dunes and scorched plains",
+            "leader": "Emperor Scorthane",
+            "symbol": "A blazing scorpion tail",
+            "colors": ["Gold", "Orange"],
+            "description": "A harsh empire forged in the desert, ruled by strength, heat, and unyielding discipline.",
+            "image": "images/sunscale-dominion.png"
+        },
+        {
+            "id": 9,
+            "name": "The Harvestbound Clans",
+            "alignment": "Neutral",
+            "territory": "Grassland colonies",
+            "leader": "Matron Foragekeeper",
+            "symbol": "A ring of ants",
+            "colors": ["Brown", "Green"],
+            "description": "A cooperative network of ant‑inspired clans who value unity, labor, and shared prosperity.",
+            "image": "images/harvestbound-clans.png"
+        },
+        {
+            "id": 10,
+            "name": "Stormglow Collective",
+            "alignment": "Chaotic Good",
+            "territory": "Swamp marshlands",
+            "leader": "Luminary Flickerwing",
+            "symbol": "A glowing firefly",
+            "colors": ["Yellow", "Teal"],
+            "description": "A peaceful faction of bioluminescent mystics who guide travelers through stormy nights.",
+            "image": "images/stormglow-collective.png"
+        },
+        {
+            "id": 11,
+            "name": "Thornveil Wardens",
+            "alignment": "Lawful Good",
+            "territory": "Dense forest borders",
+            "leader": "Warden Thornstride",
+            "symbol": "A crossed pair of thorny branches",
+            "colors": ["Forest Green", "Brown"],
+            "description": "A vigilant order of guardians who protect the forest from invaders and corruption.",
+            "image": "images/thornveil-wardens.png"
+        },
+        {
+            "id": 12,
+            "name": "Amberwind Nomads",
+            "alignment": "Neutral",
+            "territory": "Arid plains and open skies",
+            "leader": "Skipper Chieftain Aridia",
+            "symbol": "A leaping grasshopper",
+            "colors": ["Amber", "Sand"],
+            "description": "A wandering people who follow seasonal winds and live in harmony with the plains.",
+            "image": "images/amberwind-nomads.png"
+        },
+        {
+            "id": 13,
+            "name": "Frostweb Dominion",
+            "alignment": "Lawful Evil",
+            "territory": "Frozen caverns",
+            "leader": "Matriarch Icefang",
+            "symbol": "A snowflake‑shaped web",
+            "colors": ["Ice Blue", "White"],
+            "description": "A cold‑hearted spider‑based faction that rules through fear, precision, and icy discipline.",
+            "image": "images/frostweb-dominion.png"
+        },
+        {
+            "id": 14,
+            "name": "Renewal Syndicate",
+            "alignment": "Neutral Good",
+            "territory": "Savanna lowlands",
+            "leader": "Rollmaster Verdello",
+            "symbol": "A rolling beetle sphere",
+            "colors": ["Emerald", "Brown"],
+            "description": "A humble but influential group dedicated to recycling, renewal, and ecological stewardship.",
+            "image": "images/renewal-syndicate.png"
+        },
+        {
+            "id": 15,
+            "name": "Tempestwing Vanguard",
+            "alignment": "Chaotic Good",
+            "territory": "High‑altitude storm peaks",
+            "leader": "Commander Galecrest",
+            "symbol": "A lightning‑charged wing",
+            "colors": ["Blue", "White"],
+            "description": "A daring order of storm‑riding dragonfly warriors who defend the skies from threats.",
+            "image": "images/tempestwing-vanguard.png"
+        },
+        {
+            "id": 16,
+            "name": "The Fangroot Burrow",
+            "alignment": "Chaotic Evil",
+            "territory": "Volcanic soil warrens",
+            "leader": "Burrowlord Obsidrax",
+            "symbol": "A jagged trapdoor maw",
+            "colors": ["Black", "Red"],
+            "description": "A terrifying faction of ambush predators who strike from hidden pits beneath the earth.",
+            "image": "images/fangroot-burrow.png"
+        }
+    ]
+}

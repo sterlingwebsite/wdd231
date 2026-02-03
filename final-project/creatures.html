@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creatures of the World-Building Codex: insects, arthropods, and more.">
+    <meta name="author" content="Sterling Steele">
+    <title>Creatures | World-Building Codex</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script type="module" src="scripts/creatures.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Creatures</h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="factions.html">Factions</a></li>
+                <li><a href="creatures.html" class="active">Creatures</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Insect & Arthropod Bestiary</h2>
+        <p>Discover the creatures that inhabit this world.</p>
+
+        <section id="creature-list" class="grid">
+
+        </section>
+
+        <section class="submit-creature">
+            <h2>Submit a New Creature</h2>
+            <p>Contribute to the Codex by adding a new insect or arthropod species.</p>
+
+            <form method="get" action="creature-submitted.html" class="creature-form">
+                <label>
+                    Creature Name:
+                    <input type="text" name="creatureName" required>
+                </label>
+
+                <label>
+                    Species Type:
+                    <select name="species" required>
+                        <option value="Dragonfly">Dragonfly</option>
+                        <option value="Praying Mantis">Praying Mantis</option>
+                        <option value="Spider">Spider</option>
+                        <option value="Beetle">Beetle</option>
+                        <option value="Wasp">Wasp</option>
+                        <option value="Moth">Moth</option>
+                        <option value="Ant">Ant</option>
+                        <option value="Scorpion">Scorpion</option>
+                        <option value="Centipede">Centipede</option>
+                    </select>
+                </label>
+
+                <label>
+                    Habitat:
+                    <input type="text" name="habitat" placeholder="Forest canopy, desert caves, wetlands..." required>
+                </label>
+
+                <label>
+                    Danger Level:
+                    <select name="danger">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                        <option value="Extreme">Extreme</option>
+                    </select>
+                </label>
+
+                <button type="submit">Submit Creature</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> World-Building Codex</p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <p><a href="video.html">Project Video</a></p>
+    </footer>
+</body>
+</html>
