@@ -14,6 +14,19 @@ async function loadFactions() {
         const data = await response.json();
         const factions = data.factions;
 
+        const creatureResponse = await fetch("data/creatures.json");
+        if (!response.ok) {
+            throw new Error("Failed to load creatures.json");
+        }
+
+        const creatureData = await creatureResponse.json();
+        const creatures = creatureData.creatures;
+
+        const creaturesById = {};
+        creatures.forEach(c => {
+            creaturesById[c.id] = c;
+        });
+
         factionContainer.innerHTML = "";
 
         factions.forEach(faction => {
@@ -23,12 +36,10 @@ async function loadFactions() {
             card.innerHTML = `
                 <img src="${faction.image}" alt="${faction.name}" loading="lazy">
                 <h3>${faction.name}</h3>
-                <p><strong>Alignment:</strong> ${faction.alignment}</p>
-                <p><strong>Territory:</strong> ${faction.territory}</p>
-                <p><strong>Leader:</strong> ${faction.leader}</p>
+                <p class="description">${faction.description}</p>
             `;
 
-            card.addEventListener("click", () => openFactionModal(faction));
+            card.addEventListener("click", () => openFactionModal(faction, creaturesById));
 
             factionContainer.appendChild(card);
         });
@@ -39,21 +50,32 @@ async function loadFactions() {
     }
 }
 
-function openFactionModal(faction) {
+function openFactionModal(faction, creaturesById) {
+    const dominant = creaturesById[faction.dominantSpeciesId];
+    const loreHTML = faction.lore
+        .map(paragraph => `<p class="lore-paragraph">${paragraph}</p>`)
+        .join("");
+
     modalContent.innerHTML = `
-         <h2>${faction.name}</h2>
         <img src="${faction.image}" alt="${faction.name}">
-        <p><strong>Alignment:</strong> ${faction.alignment}</p>
-        <p><strong>Territory:</strong> ${faction.territory}</p>
-        <p><strong>Leader:</strong> ${faction.leader}</p>
+
+        <h2>${faction.name}</h2>
         <p><strong>Symbol:</strong> ${faction.symbol}</p>
         <p><strong>Colors:</strong> ${faction.colors.join(", ")}</p>
-        <p class="description">${faction.description}</p>
+        <p><strong>Territory:</strong> ${faction.territory}</p>
+        ${loreHTML}
+
+        <p><strong>Leader:</strong> ${faction.leader}</p>
+        <p><strong>Alignment:</strong> ${faction.alignment}</p>
+
+        <h3>Dominant Species</h3>
+        <p><strong>${dominant.name}</strong> — ${dominant.species}</p>
+        <img src="${dominant.image}" alt="${dominant.name}">
     `;
 
     modal.showModal();
 }
 
-closeModal.addEventListener("click", () => modal.closest());
+closeModal.addEventListener("click", () => modal.close());
 
 loadFactions();

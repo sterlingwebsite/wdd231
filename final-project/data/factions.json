@@ -9,7 +9,13 @@
             "symbol": "Twin dragonfly wings",
             "colors": ["Azure", "Silver"],
             "description": "A coalition of aerial tribes who value freedom, diplomacy, and mastery of the skies.",
-            "image": "images/skyborne-concord.png"
+            "image": "images/skyborne-concord.png",
+            "dominantSpeciesId": 1,
+            "lore": [
+                "The Skyborne Concord emerged during the Age of Tempests, when violent storms tore across the mountain ranges and isolated the highland tribes. Forced to cooperate for survival, the tribes united under a shared banner, developing advanced aerial scouting and wind‑reading techniques that allowed them to navigate the deadly skies.",
+                "Over generations, the Concord became renowned as impartial mediators. Their dragonfly emissaries, swift and graceful, traveled between distant realms to negotiate peace treaties and resolve disputes. Many lowland factions view the Skyborne as idealists, but few deny their effectiveness in preventing wars.",
+                "Recently, shifting desert winds from the Sunscale Dominion have begun to encroach upon Concord airspace. Though the Skyborne prefer diplomacy, they have quietly mobilized their storm‑riders and reinforced their cliffside watchtowers. The Concord now stands at a crossroads, torn between preserving peace and defending their sovereignty."
+            ]
         },
         {
             "id": 2,
@@ -20,7 +26,13 @@
             "symbol": "A spiraling leaf",
             "colors": ["Green", "Gold"],
             "description": "A druidic order dedicated to preserving natural balance and nurturing insect life.",
-            "image": "images/verdant-circle.png"
+            "image": "images/verdant-circle.png",
+            "dominantSpeciesId": 2,
+            "lore": [
+                "The Verdant Circle traces its origins to the earliest forest shamans, who believed that every insect carried a fragment of the world’s memory. Over centuries, these shamans formed a unified order dedicated to preserving the balance between predator and prey, growth and decay. Their rituals are said to coax new life from barren soil and calm even the most aggressive creatures.",
+                "Though peaceful by nature, the Circle has intervened in several major conflicts, often stepping in when war threatens to scar the land beyond repair. Their emissaries are respected for their wisdom, but their neutrality has earned them suspicion from factions who prefer clear alliances.",
+                "Recently, the Circle has grown concerned about the Gloomroot Covenant’s spread into sacred groves. While they avoid open confrontation, the druids have begun strengthening their protective wards and quietly rallying forest spirits to defend their territory should corruption continue to spread."
+            ]
         },
         {
             "id": 3,
@@ -31,7 +43,13 @@
             "symbol": "A black spider fang",
             "colors": ["Black", "Crimson"],
             "description": "A ruthless faction of subterranean predators who thrive in molten darkness.",
-            "image": "images/obsidian-brood.png"
+            "image": "images/obsidian-brood.png",
+            "dominantSpeciesId": 3,
+            "lore": [
+                "The Obsidian Brood was born in the molten caverns beneath the volcanic plains, where only the strongest predators survive. Their earliest queens forged alliances through conquest, weaving a society built on fear, obedience, and ruthless efficiency. The Brood’s warriors are trained from hatching to strike swiftly and without hesitation.",
+                "For generations, the Brood remained isolated, content to dominate the subterranean world. But as volcanic activity waned, their food sources dwindled, pushing them toward the surface. Their emergence has sparked fear across neighboring territories, as few factions can match their ferocity in close‑quarters combat.",
+                "The Brood views diplomacy as a sign of weakness, yet they have shown a grudging respect for the Ironcarapace Legion’s discipline. Some whisper that a dark alliance may be forming, one that could reshape the balance of power across the continent."
+            ]
         },
         {
             "id": 4,
@@ -42,7 +60,13 @@
             "symbol": "A beetle shell crest",
             "colors": ["Bronze", "Steel"],
             "description": "A disciplined army of armored warriors modeled after the resilience of beetles.",
-            "image": "images/ironcarapace-legion.png"
+            "image": "images/ironcarapace-legion.png",
+            "dominantSpeciesId": 4,
+            "lore": [
+                "The Ironcarapace Legion began as a small cadre of beetle‑armored guardians tasked with protecting underground trade routes. Over time, their reputation for discipline and resilience attracted warriors from across the realm, eventually forming a vast militaristic society governed by strict codes of honor and duty.",
+                "The Legion’s fortresses are architectural marvels, carved deep into the earth and reinforced with mineral plating. Their engineers are renowned for crafting nearly indestructible armor, inspired by the beetles they revere. Many factions seek their craftsmanship, though few can afford the Legion’s steep demands.",
+                "Despite their stoic nature, the Legion has grown increasingly uneasy about the Obsidian Brood’s expansion. Though neither side has declared open war, skirmishes along the border tunnels have become more frequent, hinting at a conflict that may soon erupt."
+            ]
         },
         {
             "id": 5,
@@ -53,7 +77,13 @@
             "symbol": "A glowing moth wing",
             "colors": ["White", "Lavender"],
             "description": "A secretive order of seers who interpret omens through moth patterns and starlight.",
-            "image": "images/moonweaver-enclave.png"
+            "image": "images/moonweaver-enclave.png",
+            "dominantSpeciesId": 5,
+            "lore": [
+                "The Moonweaver Enclave formed around ancient moth‑lit rituals practiced in secluded forest glades. Their seers claim to interpret the will of the stars through the shifting patterns on moth wings, believing that celestial forces guide the fate of all living things. Their prophecies, though cryptic, have proven uncannily accurate.",
+                "The Enclave rarely engages in political affairs, preferring to observe from afar. However, their visions have occasionally driven them to intervene at pivotal moments, often altering the course of history in subtle but profound ways. Many factions regard them with a mixture of awe and unease.",
+                "Recently, the Enclave has foreseen a ‘shroud of fire’ spreading across the land — a prophecy many interpret as a warning about the Sunscale Dominion’s growing aggression. Whether the Enclave will act on this vision remains uncertain, but their movements have become noticeably more deliberate."
+            ]
         },
         {
             "id": 6,
@@ -64,7 +94,13 @@
             "symbol": "A dripping stinger",
             "colors": ["Red", "Black"],
             "description": "A fierce wasp‑based faction known for aggressive expansion and swarm tactics.",
-            "image": "images/crimson-swarm.png"
+            "image": "images/crimson-swarm.png",
+            "dominantSpeciesId": 6,
+            "lore": [
+                "The Crimson Swarm originated from a network of cliffside hives where survival depended on aggression and unity. Their society is built around the principle that strength is the only true currency, and every member is expected to contribute to the hive’s dominance. Their stinger‑forged weapons are feared across the realm.",
+                "The Swarm’s expansionist tendencies have brought them into conflict with nearly every neighboring faction. Their raids are swift and brutal, often leaving little time for defenders to react. Despite their reputation, the Swarm maintains a strict internal hierarchy that values loyalty above all else.",
+                "In recent years, the Swarm has begun probing deeper into forest territories, clashing frequently with the Thornveil Wardens. Some believe the Swarm seeks to establish new hives in the heartwood, a move that could destabilize the entire region."
+            ]
         },
         {
             "id": 7,
@@ -75,7 +111,13 @@
             "symbol": "A centipede coil",
             "colors": ["Dark Green", "Umber"],
             "description": "A hive‑minded cult of venomous hunters who worship the power of decay.",
-            "image": "images/gloomroot-covenant.png"
+            "image": "images/gloomroot-covenant.png",
+            "dominantSpeciesId": 7,
+            "lore": [
+                "The Gloomroot Covenant emerged from the darkest reaches of the forest undergrowth, where venomous creatures thrive in perpetual twilight. Their cult‑like society worships decay as a sacred force, believing that all life must eventually return to the soil. Their rituals often involve offerings of venom and shadow.",
+                "The Covenant’s influence spreads slowly but relentlessly, like rot through old wood. They infiltrate neighboring territories through subtle corruption, weakening ecosystems before claiming them. Many factions underestimate them until it is too late, as their methods favor patience over brute force.",
+                "Their encroachment into Verdant Circle lands has sparked a silent war of attrition. While the Circle seeks to heal the land, the Covenant seeks to claim it, creating a clash of philosophies that threatens to consume the entire forest."
+            ]
         },
         {
             "id": 8,
@@ -86,7 +128,13 @@
             "symbol": "A blazing scorpion tail",
             "colors": ["Gold", "Orange"],
             "description": "A harsh empire forged in the desert, ruled by strength, heat, and unyielding discipline.",
-            "image": "images/sunscale-dominion.png"
+            "image": "images/sunscale-dominion.png",
+            "dominantSpeciesId": 8,
+            "lore": [
+                "The Sunscale Dominion rose from the harsh desert dunes, where only the most resilient creatures survive. Their society is built around the principles of endurance, discipline, and absolute authority. The Dominion’s rulers claim divine right through their connection to the scorching sun and the scorpions that thrive beneath it.",
+                "Their armies are trained to withstand extreme heat and dehydration, making them nearly unstoppable in desert warfare. The Dominion’s expansion has brought them into conflict with several factions, particularly those whose lands border the shifting sands.",
+                "As desert winds begin to drift northward, the Dominion has set its sights on the highlands, threatening the Skyborne Concord’s airspace. Many fear that the Dominion’s ambition may soon ignite a continent‑wide conflict."
+            ]
         },
         {
             "id": 9,
@@ -97,7 +145,13 @@
             "symbol": "A ring of ants",
             "colors": ["Brown", "Green"],
             "description": "A cooperative network of ant‑inspired clans who value unity, labor, and shared prosperity.",
-            "image": "images/harvestbound-clans.png"
+            "image": "images/harvestbound-clans.png",
+            "dominantSpeciesId": 9,
+            "lore": [
+                "The Harvestbound Clans formed from a network of ant‑inspired communities that value cooperation, labor, and shared prosperity. Their underground cities are marvels of engineering, with vast chambers dedicated to food storage, crafting, and communal gatherings.",
+                "Though peaceful, the Clans are fiercely protective of their territory. Their soldiers fight with coordinated precision, overwhelming enemies through sheer unity. Many factions rely on the Clans for trade, as their agricultural output is unmatched.",
+                "Recently, the Clans have faced increasing pressure from the Crimson Swarm, whose raids threaten their supply lines. In response, the Clans have begun fortifying their borders and seeking alliances with factions that share their values."
+            ]
         },
         {
             "id": 10,
@@ -108,7 +162,13 @@
             "symbol": "A glowing firefly",
             "colors": ["Yellow", "Teal"],
             "description": "A peaceful faction of bioluminescent mystics who guide travelers through stormy nights.",
-            "image": "images/stormglow-collective.png"
+            "image": "images/stormglow-collective.png",
+            "dominantSpeciesId": 10,
+            "lore": [
+                "The Stormglow Collective emerged from the swamp marshlands where fireflies illuminate the night with their bioluminescent glow. Their society revolves around guiding lost travelers and preserving the delicate balance of the wetlands. They believe that light is a sacred gift meant to be shared.",
+                "The Collective’s mystics harness the power of storms, using their glow to navigate treacherous terrain during violent weather. Their knowledge of swamp pathways makes them invaluable allies — and dangerous enemies to those who underestimate them.",
+                "In recent years, the Collective has noticed unusual disturbances in the wetlands, which they attribute to the Frostweb Dominion’s experiments with cold magic. Tensions between the two factions have begun to rise as the swamps grow colder each season."
+            ]
         },
         {
             "id": 11,
@@ -119,7 +179,13 @@
             "symbol": "A crossed pair of thorny branches",
             "colors": ["Forest Green", "Brown"],
             "description": "A vigilant order of guardians who protect the forest from invaders and corruption.",
-            "image": "images/thornveil-wardens.png"
+            "image": "images/thornveil-wardens.png",
+            "dominantSpeciesId": 11,
+            "lore": [
+                "The Thornveil Wardens were founded by forest guardians who dedicated their lives to protecting the heartwood from invaders. Their training emphasizes patience, precision, and an intimate knowledge of the forest’s natural defenses. They are often the first line of defense against external threats.",
+                "The Wardens maintain strict patrol routes and have established hidden outposts throughout the forest. Their ability to blend seamlessly with their surroundings makes them formidable opponents, especially against factions unfamiliar with woodland terrain.",
+                "Their ongoing clashes with the Crimson Swarm have pushed the Wardens to adopt more aggressive tactics. While they prefer defense over offense, the increasing frequency of Swarm incursions has forced them to consider preemptive strikes."
+            ]
         },
         {
             "id": 12,
@@ -130,7 +196,13 @@
             "symbol": "A leaping grasshopper",
             "colors": ["Amber", "Sand"],
             "description": "A wandering people who follow seasonal winds and live in harmony with the plains.",
-            "image": "images/amberwind-nomads.png"
+            "image": "images/amberwind-nomads.png",
+            "dominantSpeciesId": 12,
+            "lore": [
+                "The Amberwind Nomads are a wandering insects who follow the seasonal winds across the arid plains. Their culture is built around freedom, adaptability, and respect for the natural rhythms of the land. They travel in lightweight caravans designed to withstand sudden sandstorms.",
+                "The Nomads are skilled hunters and gatherers, relying on their grasshopper‑inspired agility to traverse long distances quickly. Their scouts are said to predict weather changes with uncanny accuracy, making them invaluable guides for travelers.",
+                "Though generally peaceful, the Nomads have grown wary of the Sunscale Dominion’s expansion. As the Dominion pushes deeper into the plains, the Nomads fear that their migratory routes may soon be cut off, threatening their way of life."
+            ]
         },
         {
             "id": 13,
@@ -141,7 +213,13 @@
             "symbol": "A snowflake‑shaped web",
             "colors": ["Ice Blue", "White"],
             "description": "A cold‑hearted spider‑based faction that rules through fear, precision, and icy discipline.",
-            "image": "images/frostweb-dominion.png"
+            "image": "images/frostweb-dominion.png",
+            "dominantSpeciesId": 13,
+            "lore": [
+                "The Frostweb Dominion was forged in the frozen caverns of the northern wastes, where ice spiders weave intricate webs that shimmer like crystal. Their society values precision, discipline, and emotional restraint, believing that cold logic is the key to survival in harsh climates.",
+                "Dominion weavers are renowned for crafting frost‑infused silk used in armor and traps. Their mastery of cold magic has allowed them to expand into territories once considered uninhabitable, though their presence often brings unnatural chills to the surrounding lands.",
+                "Their experiments with cold energy have begun affecting distant regions, drawing the ire of the Stormglow Collective. As tensions rise, many fear that the Dominion’s pursuit of perfection may plunge the continent into an age of frost."
+            ]
         },
         {
             "id": 14,
@@ -152,7 +230,13 @@
             "symbol": "A rolling beetle sphere",
             "colors": ["Emerald", "Brown"],
             "description": "A humble but influential group dedicated to recycling, renewal, and ecological stewardship.",
-            "image": "images/renewal-syndicate.png"
+            "image": "images/renewal-syndicate.png",
+            "dominantSpeciesId": 14,
+            "lore": [
+                "The Renewal Syndicate began as a humble group of beetles who believed that decay and rebirth were essential parts of the natural cycle. Over time, they evolved into a powerful ecological movement dedicated to restoring damaged lands and promoting sustainable practices.",
+                "Their dung‑rolling rituals symbolize the transformation of waste into life, a philosophy that guides their every action. The Syndicate’s engineers have developed innovative methods for soil enrichment, making them highly sought after by agricultural factions.",
+                "Despite their peaceful mission, the Syndicate has faced opposition from factions that prioritize expansion over preservation. Their recent disputes with the Sunscale Dominion highlight the growing tension between ecological stewardship and imperial ambition."
+            ]
         },
         {
             "id": 15,
@@ -163,7 +247,13 @@
             "symbol": "A lightning‑charged wing",
             "colors": ["Blue", "White"],
             "description": "A daring order of storm‑riding dragonfly warriors who defend the skies from threats.",
-            "image": "images/tempestwing-vanguard.png"
+            "image": "images/tempestwing-vanguard.png",
+            "dominantSpeciesId": 15,
+            "lore": [
+                "The Tempestwing Vanguard was formed by elite dragonflies who mastered the art of navigating violent storm currents. Their training is grueling, requiring exceptional reflexes and unwavering courage. Only the most skilled fliers earn the right to wear the Vanguard’s lightning‑marked insignia.",
+                "The Vanguard serves as both protectors and explorers, mapping dangerous high‑altitude regions and intercepting threats before they reach populated areas. Their presence is often seen as a sign of impending danger, as they rarely deploy without cause.",
+                "Their relationship with the Skyborne Concord is complex — part rivalry, part alliance. While they share a common love for the skies, the Vanguard’s aggressive tactics often clash with the Concord’s diplomatic approach, creating tension even in times of peace."
+            ]
         },
         {
             "id": 16,
@@ -174,7 +264,13 @@
             "symbol": "A jagged trapdoor maw",
             "colors": ["Black", "Red"],
             "description": "A terrifying faction of ambush predators who strike from hidden pits beneath the earth.",
-            "image": "images/fangroot-burrow.png"
+            "image": "images/fangroot-burrow.png",
+            "dominantSpeciesId": 16,
+            "lore": [
+                "The Fangroot Burrow originated in the volcanic soil warrens where trapdoor spiders perfected the art of ambush. Their society is built around secrecy, patience, and the belief that true power lies in striking only when the moment is perfect. Generations of burrowlords have refined their techniques, creating an underground network of hidden tunnels and pressure‑sensitive traps that few outsiders survive.",
+                "Unlike other factions that rely on open warfare or diplomacy, the Fangroot Burrow wages its battles in silence. Their agents infiltrate enemy territory through subterranean passages, gathering intelligence and weakening defenses long before a conflict becomes visible. Many factions fear them not because of their numbers, but because they can never be certain where the Fangroot are watching from below.",
+                "In recent years, the Burrow has grown increasingly bold, expanding its tunnel networks toward the volcanic plains and forest borders. Their clashes with the Obsidian Brood have become particularly vicious, as both factions vie for dominance beneath the earth. Some believe the Fangroot seek to control the entire subterranean world, while others whisper that they are preparing for a threat far greater than any surface conflict."
+            ]
         }
     ]
 }
