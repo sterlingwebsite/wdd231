@@ -6,12 +6,12 @@
 
     <!-- meta info -->
     <meta name="description" content="
-        A world‑building codex introducing the realms, factions, and creatures of the Insect Dominion project. Explore lore, design, and interactive elements.
+        An insect‑world codex exploring the factions, and creatures of my original setting. Discover rich lore, thoughtful design, and interactive world‑building elements.
     ">
     <meta name="author" content="Sterling Steele">
 
     <!-- page title -->
-    <title>Homepage | World-Building Codex</title>
+    <title>Homepage | Insect-World Codex</title>
 
     <!-- css -->
     <link rel="stylesheet" href="styles/base.css">
@@ -25,14 +25,14 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="Sterling Steele | WDD 231 Final Project Homepage">
-    <meta property="og:description" content="Explore my WDD 231 final project homepage with links to the world-building codex factions and creatures.">
+    <meta property="og:description" content="Explore my WDD 231 final project homepage with links to the insect-world codex factions and creatures.">
     <meta property="og:image" content="https://sterlingsteele.github.io/wdd231/final-project/images/hero.jpg">
     <meta property="og:url" content="https://sterlingsteele.github.io/wdd231/final-project">
 
 </head>
 <body>
-    <header>
-        <h1>World-Building Codex</h1>
+    <!-- <header>
+        <h1>Insect-World Codex</h1>
         <nav>
             <button id="menu"></button>
             <ul class="navigation">
@@ -41,27 +41,56 @@
                 <li><a href="creatures.html">Creatures</a></li>
             </ul>
         </nav>
+    </header> -->
+
+    <header>
+        <div class="branding">
+            <img src="images/logo.svg" alt="Bluffdale Chamber of Commerce Logo" id="logo">
+
+            <p class="site-name" id="site-name">Insect-World Codex</p>
+        
+            <button id="ham-btn" class="hamburger" type="button" aria-label="Navigation button"></button>
+        </div>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="directory.html">Directory</a></li>
+
+                <li><a href="discover.html">Discover</a></li>
+
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section class="hero">
             <h2>Welcome to the Codex</h2>
+
             <p>Explore the factions, creatures, and histories that shape this world.</p>
         </section>
 
         <section class="categories">
             <h2>Explore</h2>
+
             <div class="cards">
                 <a href="factions.html" class="card">Factions</a>
+
                 <a href="creatures.html" class="card">Creatures</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> World-Building Codex</p>
+        <p class="footer-js-data">&copy; <span id="current-year"></span> World-Building Codex</p>
+
         <p><a href="attributions.html">Attributions</a></p>
+
         <p><a href="video.html">Project Video</a></p>
+
+        <p class="footer-js-data">Last Modified: <span id="last-modified"></span></p>
     </footer>
 </body>
 </html>
