@@ -1,10 +1,18 @@
+:root {
+    /* colors */
+    --text: rgb(0, 0, 0);
+    --first-bg: rgb(158, 158, 158);
+    --second-bg: rgb(114, 114, 114);
+    --default-bg: rgb(255, 255, 255);
+}
+
 * {
     box-sizing: border-box;
     padding: 1rem;
     margin: 0;
     /* outline: 1px solid red; */
-    background-color: white;
-    color: black;
+    background-color: var(--default-bg);
+    color: var(--text);
     border-radius: 10px;
 }
 
@@ -13,12 +21,11 @@ html {
 }
 
 body {
-    background-color: rgb(214, 214, 214);
+    padding: 0;
 }
 
 header, main, footer {
-    background-color: rgb(158, 158, 158);
-    /* background-color: transparent; */
+    background-color: var(--second-bg);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -28,10 +35,6 @@ header, main, footer {
 /* hamburger */
 
 header {
-    /* background: var(--primary); */
-    /* color: var(--surface); */
-    /* padding: 1rem; */
-    /* padding: 0; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,22 +59,22 @@ header {
 nav ul {
     list-style: none;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    padding: 0;
+    gap: 1rem;
+    padding: 1rem;
     margin: 0;
+    width: fit-content;
+    align-items: center;
+    border-radius: 0;
+    background-color: var(--second-bg);
+    border: 1px solid black;
 }
 
 nav a {
-    color: var(--surface);
     text-decoration: none;
     font-weight: 600;
     display: block;
-    background: var(--primary);
-}
-
-nav a.active {
-    border-bottom: 3px solid var(--accent);
 }
 
 /* menu button */
@@ -82,17 +85,12 @@ nav {
 #nav-bar.show {
     display: block;
     position: absolute;
-    top: 90px;
+    top: 54px;
     right: 0;
     left: 0;
-    background: var(--primary);
-    /* padding: 1rem 0; */
     z-index: 500;
+    justify-items: right;
 }
-
-/* #nav-bar.show a {
-    background: var(--primary-dark);
-} */
 
 #ham-btn {
     width: 40px;
@@ -103,10 +101,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: absolute; */
-    /* top: 0.3rem; */
-    /* right: 0.6rem; */
-    /* z-index: 1000; */
 }
 
 .hamburger {
@@ -132,16 +126,16 @@ nav {
 h2 {
     font-size: 1.2rem;
     text-align: center;
-    background-color: rgb(114, 114, 114);
+    background-color: var(--first-bg);
 }
 
 p {
     text-align: center;
-    background-color: rgb(114, 114, 114);
+    background-color: var(--first-bg);
 }
 
 section {
-    background-color: rgb(158, 158, 158);
+    background-color: var(--second-bg);
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -157,9 +151,11 @@ div {
 }
 
 a {
-    background-color: rgb(114, 114, 114);
+    background-color: var(--first-bg);
     text-decoration: none;
     display: inline-block;
+    border: 1px solid var(--text);
+    font-weight: bold;
 }
 
 a:hover {
@@ -179,7 +175,7 @@ footer p {
 
 .footer-js-data {
     padding: 1rem;
-    background-color: rgb(114, 114, 114);
+    background-color: var(--first-bg);
 }
 
 #logo {
@@ -189,4 +185,17 @@ footer p {
 #site-name {
     font-weight: bold;
     font-size: 0.9rem;
+}
+
+li {
+    padding: 0;
+    width: fit-content;
+}
+
+.nav-bar-a {
+    width: fit-content;
+}
+
+#active {
+    background-color: rgb(78, 78, 78);
 }
