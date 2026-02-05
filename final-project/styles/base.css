@@ -3,6 +3,7 @@
     --text: rgb(0, 0, 0);
     --first-bg: rgb(158, 158, 158);
     --second-bg: rgb(114, 114, 114);
+    --third-bg: rgb(78, 78, 78);
     --default-bg: rgb(255, 255, 255);
 }
 
@@ -33,7 +34,6 @@ header, main, footer {
 }
 
 /* hamburger */
-
 header {
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ nav ul {
     align-items: center;
     border-radius: 0;
     background-color: var(--second-bg);
-    border: 1px solid black;
+    border: 1px solid var(--text);
 }
 
 nav a {
@@ -90,6 +90,7 @@ nav {
     left: 0;
     z-index: 500;
     justify-items: right;
+    background-color: transparent;
 }
 
 #ham-btn {
@@ -97,7 +98,6 @@ nav {
     height: 40px;
     border: none;
     cursor: pointer;
-    color: var(--surface);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,7 +122,6 @@ nav {
 }
 
 /* new stuff */
-
 h2 {
     font-size: 1.2rem;
     text-align: center;
@@ -159,7 +158,7 @@ a {
 }
 
 a:hover {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--third-bg);
 
 }
 
@@ -197,5 +196,5 @@ li {
 }
 
 #active {
-    background-color: rgb(78, 78, 78);
+    background-color: var(--third-bg);
 }
