@@ -64,7 +64,7 @@
             "diet": "Carnivore",
             "dangerLevel": "High",
             "description": "A territorial wasp known for its painful sting and aggressive swarming behavior.",
-            "image": "images/crimson-stinger-small-small.jpg"
+            "image": "images/crimson-stinger-small.jpg"
         },
         {
             "id": 7,

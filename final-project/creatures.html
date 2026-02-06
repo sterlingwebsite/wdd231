@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <!-- js -->
-    <script type="module" src="scripts/creatures.js" defer></script>
+    <script type="module" src="scripts/hamburger.js"></script>
+    <script type="module" src="scripts/footer-data.js"></script>
+    <script type="module" src="scripts/creatures.js"></script>
 
     <!-- favicon -->
     <link rel="icon" href="images/favicon.ico">
@@ -29,23 +31,35 @@
     <meta property="og:image" content="https://sterlingsteele.github.io/wdd231/final-project/images/azure-sky-hunter.png">
     <meta property="og:url" content="https://sterlingsteele.github.io/wdd231/final-project/creatures.html">
 
+    <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Creatures</h1>
-        <nav>
-            <button id="menu"></button>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="factions.html">Factions</a></li>
-                <li><a href="creatures.html" class="active">Creatures</a></li>
+        <div class="branding" id="branding">
+            <img src="images/logo.svg" alt="Icon of an insect" id="logo" width="30" height="30">
+
+            <p class="site-name" id="site-name">Insect-World Codex</p>
+        
+            <button id="ham-btn" class="hamburger" type="button" aria-label="Navigation button"></button>
+        </div>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html" class="nav-bar-a">Home</a></li>
+
+                <li><a href="factions.html" class="nav-bar-a">Factions</a></li>
+
+                <li><a href="creatures.html" class="nav-bar-a" id="active">Creatures</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Insect & Arthropod Bestiary</h2>
-        <p>Discover the creatures that inhabit this world.</p>
+        <h1>Insect & Arthropod Bestiary</h1>
+        <p id="site-description">Discover the creatures that inhabit this world.</p>
 
         <section id="creature-list" class="grid">
 
@@ -87,9 +101,15 @@
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> World-Building Codex</p>
-        <p><a href="attributions.html">Attributions</a></p>
-        <p><a href="video.html">Project Video</a></p>
+        <p class="footer-js-data">&copy; <span id="current-year"></span> World-Building Codex</p>
+
+        <div id="footer-a-container">
+            <p class="footer-p"><a href="attributions.html">Attributions</a></p>
+
+            <p class="footer-p"><a href="video.html">Project Video</a></p>
+        </div>
+
+        <p class="footer-js-data">Last Modified: <span id="last-modified"></span></p>
     </footer>
 </body>
 </html>

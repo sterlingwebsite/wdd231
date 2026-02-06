@@ -297,3 +297,57 @@ li {
     width: 100%;
     background-color: transparent;
 }
+
+/* creatures.html */
+.creature-card img {
+    width: 100%;
+    background-color: transparent;
+}
+
+#creature-list {
+    background-color: transparent;
+}
+
+.creature-card {
+    background-color: var(--first-bg);
+}
+
+.creature-card h3 {
+    background-color: transparent;
+    text-align: center;
+}
+
+.creature-card p strong {
+    background-color: transparent;
+}
+
+.creature-card p {
+    font-size: 1.3rem;
+}
+
+#site-description {
+    font-size: 1.3rem;
+}
+
+.submit-creature {
+    background-color: var(--first-bg);
+}
+
+.creature-form {
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.creature-form label {
+    background-color: transparent;
+}
+
+.creature-form label input {
+    background-color: transparent;
+    padding: 0.5;
+}
+
+.creature-form label input::placeholder {
+    color: var(--text);
+    opacity: 1;
+}
