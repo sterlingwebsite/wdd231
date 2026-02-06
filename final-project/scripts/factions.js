@@ -1,7 +1,7 @@
 const factionContainer = document.querySelector("#faction-container");
 const modal = document.querySelector("#factionModal");
 const modalContent = document.querySelector("#modalContent");
-const closeModal = document.querySelector("#closeModal");
+const closeModal = document.querySelectorAll(".closeModal");
 
 async function loadFactions() {
     try {
@@ -57,7 +57,7 @@ function openFactionModal(faction, creaturesById) {
         .join("");
 
     modalContent.innerHTML = `
-        <img src="${faction.image}" alt="${faction.name}">
+        <img src="${faction.image}" alt="${faction.name}" loading="lazy">
 
         <h2>${faction.name}</h2>
         <p><strong>Symbol:</strong> ${faction.symbol}</p>
@@ -70,12 +70,16 @@ function openFactionModal(faction, creaturesById) {
 
         <h3>Dominant Species</h3>
         <p><strong>${dominant.name}</strong> — ${dominant.species}</p>
-        <img src="${dominant.image}" alt="${dominant.name}">
+        <img src="${dominant.image}" alt="${dominant.name}" loading="lazy">
     `;
 
     modal.showModal();
+    modal.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
 
-closeModal.addEventListener("click", () => modal.close());
+closeModal.forEach(btn => {
+    btn.addEventListener("click", () => modal.close());
+});
 
 loadFactions();

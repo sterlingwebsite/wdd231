@@ -6,7 +6,7 @@
 
     <!-- meta info -->
     <meta name="description" content="
-        An insect‑world codex exploring the factions, and creatures of my original setting. Discover rich lore, thoughtful design, and interactive world‑building elements.
+        An insect‑world codex exploring the factions and creatures of my original setting. Discover rich lore, thoughtful design, and interactive world‑building elements.
     ">
     <meta name="author" content="Sterling Steele">
 
@@ -15,7 +15,6 @@
 
     <!-- css -->
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
 
     <!-- js -->
     <script type="module" src="scripts/main.js" defer></script>
@@ -29,23 +28,15 @@
     <meta property="og:image" content="https://sterlingsteele.github.io/wdd231/final-project/images/hero.jpg">
     <meta property="og:url" content="https://sterlingsteele.github.io/wdd231/final-project">
 
+    <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <header>
-        <h1>Insect-World Codex</h1>
-        <nav>
-            <button id="menu"></button>
-            <ul class="navigation">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="factions.html">Factions</a></li>
-                <li><a href="creatures.html">Creatures</a></li>
-            </ul>
-        </nav>
-    </header> -->
-
     <header>
         <div class="branding" id="branding">
-            <img src="images/logo.svg" alt="Icon of an insect" id="logo">
+            <img src="images/logo.svg" alt="Icon of an insect" id="logo" width="30" height="30">
 
             <p class="site-name" id="site-name">Insect-World Codex</p>
         
@@ -56,18 +47,22 @@
             <ul>
                 <li><a href="index.html" class="nav-bar-a" id="active">Home</a></li>
 
-                <li><a href="creatures.html" class="nav-bar-a">Creatures</a></li>
-
                 <li><a href="factions.html" class="nav-bar-a">Factions</a></li>
+
+                <li><a href="creatures.html" class="nav-bar-a">Creatures</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <h2>Welcome to the Codex</h2>
+            <img src="images/hero.jpg" alt="large image of various bugs" id="hero-img">
 
-            <p>Explore the factions, creatures, and histories that shape this world.</p>
+            <div id="hero-heading-container">
+                <h2>Welcome to the Codex</h2>
+
+                <p>Explore the factions, creatures, and histories that shape this world.</p>
+            </div>
         </section>
 
         <section class="categories">
@@ -84,9 +79,11 @@
     <footer>
         <p class="footer-js-data">&copy; <span id="current-year"></span> World-Building Codex</p>
 
-        <p><a href="attributions.html">Attributions</a></p>
+        <div id="footer-a-container">
+            <p class="footer-p"><a href="attributions.html">Attributions</a></p>
 
-        <p><a href="video.html">Project Video</a></p>
+            <p class="footer-p"><a href="video.html">Project Video</a></p>
+        </div>
 
         <p class="footer-js-data">Last Modified: <span id="last-modified"></span></p>
     </footer>

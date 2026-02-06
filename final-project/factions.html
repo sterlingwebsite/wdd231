@@ -6,13 +6,13 @@
 
     <!-- Meta -->
     <meta name="description" content="
-        Explore the major factions of the Insect Dominion, including their leaders, territories, symbols, and lore. Fully dynamic data with modal details.
+        Explore the major factions of the insect-world codex, including their leaders, territories, symbols, and lore.
     ">
     <meta name="author" content="Sterling Steele">
 
     <!-- Open graph -->
     <meta property="og:title" content="Sterling Steele | WDD 231 Final Project Factions Page">
-    <meta property="og:description" content="Explore my WDD 231 final project factions with links to the world-building codex homepage and creatures.">
+    <meta property="og:description" content="Explore my WDD 231 final project factions with links to the insect-world codex homepage and creatures.">
     <meta property="og:image" content="https://sterlingsteele.github.io/wdd231/final-project/images/skyborne-concord.png">
     <meta property="og:url" content="https://sterlingsteele.github.io/wdd231/final-project/factions.html">
 
@@ -21,42 +21,67 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
 
     <!-- JS -->
+     <script type="module" src="scripts/main.js" defer></script>
     <script type="module" src="scripts/factions.js" defer></script>
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
 
+    <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <h1>Factions</h1>
-        <nav>
-            <button id="menu"></button>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="factions.html" class="active">Factions</a></li>
-                <li><a href="creatures.html">Creatures</a></li>
+        <div class="branding" id="branding">
+            <img src="images/logo.svg" alt="Icon of an insect" id="logo" width="30" height="30">
+
+            <p class="site-name" id="site-name">Insect-World Codex</p>
+        
+            <button id="ham-btn" class="hamburger" type="button" aria-label="Navigation button"></button>
+        </div>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html" class="nav-bar-a">Home</a></li>
+
+                <li><a href="factions.html" class="nav-bar-a" id="active">Factions</a></li>
+
+                <li><a href="creatures.html" class="nav-bar-a">Creatures</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <h2>Major Factions</h2>
-        <div id="faction-container" class="grid"></div>
+
+        <div id="faction-container"></div>
 
         <dialog id="factionModal">
-            <div id="modalContent"></div>
-            <button id="closeModal">Close</button>
+            <div id="modal-inner">
+                <button class="closeModal">Close</button>
+
+                <div id="modalContent"></div>
+
+                <button class="closeModal">Close</button>
+            </div>
         </dialog>
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> World-Building Codex</p>
-        <p><a href="attributions.html">Attributions</a></p>
-        <p><a href="video.html">Project Video</a></p>
+        <p class="footer-js-data">&copy; <span id="current-year"></span> World-Building Codex</p>
+
+        <div id="footer-a-container">
+            <p class="footer-p"><a href="attributions.html">Attributions</a></p>
+
+            <p class="footer-p"><a href="video.html">Project Video</a></p>
+        </div>
+
+        <p class="footer-js-data">Last Modified: <span id="last-modified"></span></p>
     </footer>
 </body>
 </html>

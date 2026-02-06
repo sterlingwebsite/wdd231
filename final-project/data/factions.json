@@ -9,7 +9,7 @@
             "symbol": "Twin dragonfly wings",
             "colors": ["Azure", "Silver"],
             "description": "A coalition of aerial tribes who value freedom, diplomacy, and mastery of the skies.",
-            "image": "images/skyborne-concord.png",
+            "image": "images/skyborne-concord-smallest.jpg",
             "dominantSpeciesId": 1,
             "lore": [
                 "The Skyborne Concord emerged during the Age of Tempests, when violent storms tore across the mountain ranges and isolated the highland tribes. Forced to cooperate for survival, the tribes united under a shared banner, developing advanced aerial scouting and wind‑reading techniques that allowed them to navigate the deadly skies.",
@@ -26,7 +26,7 @@
             "symbol": "A spiraling leaf",
             "colors": ["Green", "Gold"],
             "description": "A druidic order dedicated to preserving natural balance and nurturing insect life.",
-            "image": "images/verdant-circle.png",
+            "image": "images/verdant-circle-smallest.jpg",
             "dominantSpeciesId": 2,
             "lore": [
                 "The Verdant Circle traces its origins to the earliest forest shamans, who believed that every insect carried a fragment of the world’s memory. Over centuries, these shamans formed a unified order dedicated to preserving the balance between predator and prey, growth and decay. Their rituals are said to coax new life from barren soil and calm even the most aggressive creatures.",
@@ -43,7 +43,7 @@
             "symbol": "A black spider fang",
             "colors": ["Black", "Crimson"],
             "description": "A ruthless faction of subterranean predators who thrive in molten darkness.",
-            "image": "images/obsidian-brood.png",
+            "image": "images/obsidian-brood-smallest.jpg",
             "dominantSpeciesId": 3,
             "lore": [
                 "The Obsidian Brood was born in the molten caverns beneath the volcanic plains, where only the strongest predators survive. Their earliest queens forged alliances through conquest, weaving a society built on fear, obedience, and ruthless efficiency. The Brood’s warriors are trained from hatching to strike swiftly and without hesitation.",
@@ -60,7 +60,7 @@
             "symbol": "A beetle shell crest",
             "colors": ["Bronze", "Steel"],
             "description": "A disciplined army of armored warriors modeled after the resilience of beetles.",
-            "image": "images/ironcarapace-legion.png",
+            "image": "images/ironcarapace-legion-smallest.jpg",
             "dominantSpeciesId": 4,
             "lore": [
                 "The Ironcarapace Legion began as a small cadre of beetle‑armored guardians tasked with protecting underground trade routes. Over time, their reputation for discipline and resilience attracted warriors from across the realm, eventually forming a vast militaristic society governed by strict codes of honor and duty.",
@@ -77,7 +77,7 @@
             "symbol": "A glowing moth wing",
             "colors": ["White", "Lavender"],
             "description": "A secretive order of seers who interpret omens through moth patterns and starlight.",
-            "image": "images/moonweaver-enclave.png",
+            "image": "images/moonweaver-enclave-smallest.jpg",
             "dominantSpeciesId": 5,
             "lore": [
                 "The Moonweaver Enclave formed around ancient moth‑lit rituals practiced in secluded forest glades. Their seers claim to interpret the will of the stars through the shifting patterns on moth wings, believing that celestial forces guide the fate of all living things. Their prophecies, though cryptic, have proven uncannily accurate.",
@@ -94,7 +94,7 @@
             "symbol": "A dripping stinger",
             "colors": ["Red", "Black"],
             "description": "A fierce wasp‑based faction known for aggressive expansion and swarm tactics.",
-            "image": "images/crimson-swarm.png",
+            "image": "images/crimson-swarm-smallest.jpg",
             "dominantSpeciesId": 6,
             "lore": [
                 "The Crimson Swarm originated from a network of cliffside hives where survival depended on aggression and unity. Their society is built around the principle that strength is the only true currency, and every member is expected to contribute to the hive’s dominance. Their stinger‑forged weapons are feared across the realm.",
@@ -111,7 +111,7 @@
             "symbol": "A centipede coil",
             "colors": ["Dark Green", "Umber"],
             "description": "A hive‑minded cult of venomous hunters who worship the power of decay.",
-            "image": "images/gloomroot-covenant.png",
+            "image": "images/gloomroot-covenant-smallest.jpg",
             "dominantSpeciesId": 7,
             "lore": [
                 "The Gloomroot Covenant emerged from the darkest reaches of the forest undergrowth, where venomous creatures thrive in perpetual twilight. Their cult‑like society worships decay as a sacred force, believing that all life must eventually return to the soil. Their rituals often involve offerings of venom and shadow.",
@@ -128,7 +128,7 @@
             "symbol": "A blazing scorpion tail",
             "colors": ["Gold", "Orange"],
             "description": "A harsh empire forged in the desert, ruled by strength, heat, and unyielding discipline.",
-            "image": "images/sunscale-dominion.png",
+            "image": "images/sunscale-dominion-smallest.jpg",
             "dominantSpeciesId": 8,
             "lore": [
                 "The Sunscale Dominion rose from the harsh desert dunes, where only the most resilient creatures survive. Their society is built around the principles of endurance, discipline, and absolute authority. The Dominion’s rulers claim divine right through their connection to the scorching sun and the scorpions that thrive beneath it.",
@@ -145,7 +145,7 @@
             "symbol": "A ring of ants",
             "colors": ["Brown", "Green"],
             "description": "A cooperative network of ant‑inspired clans who value unity, labor, and shared prosperity.",
-            "image": "images/harvestbound-clans.png",
+            "image": "images/harvestbound-clans-smallest.jpg",
             "dominantSpeciesId": 9,
             "lore": [
                 "The Harvestbound Clans formed from a network of ant‑inspired communities that value cooperation, labor, and shared prosperity. Their underground cities are marvels of engineering, with vast chambers dedicated to food storage, crafting, and communal gatherings.",
@@ -162,7 +162,7 @@
             "symbol": "A glowing firefly",
             "colors": ["Yellow", "Teal"],
             "description": "A peaceful faction of bioluminescent mystics who guide travelers through stormy nights.",
-            "image": "images/stormglow-collective.png",
+            "image": "images/stormglow-collective-smallest.jpg",
             "dominantSpeciesId": 10,
             "lore": [
                 "The Stormglow Collective emerged from the swamp marshlands where fireflies illuminate the night with their bioluminescent glow. Their society revolves around guiding lost travelers and preserving the delicate balance of the wetlands. They believe that light is a sacred gift meant to be shared.",
@@ -179,7 +179,7 @@
             "symbol": "A crossed pair of thorny branches",
             "colors": ["Forest Green", "Brown"],
             "description": "A vigilant order of guardians who protect the forest from invaders and corruption.",
-            "image": "images/thornveil-wardens.png",
+            "image": "images/thornveil-wardens-smallest.jpg",
             "dominantSpeciesId": 11,
             "lore": [
                 "The Thornveil Wardens were founded by forest guardians who dedicated their lives to protecting the heartwood from invaders. Their training emphasizes patience, precision, and an intimate knowledge of the forest’s natural defenses. They are often the first line of defense against external threats.",
@@ -196,7 +196,7 @@
             "symbol": "A leaping grasshopper",
             "colors": ["Amber", "Sand"],
             "description": "A wandering people who follow seasonal winds and live in harmony with the plains.",
-            "image": "images/amberwind-nomads.png",
+            "image": "images/amberwind-nomads-smallest.jpg",
             "dominantSpeciesId": 12,
             "lore": [
                 "The Amberwind Nomads are a wandering insects who follow the seasonal winds across the arid plains. Their culture is built around freedom, adaptability, and respect for the natural rhythms of the land. They travel in lightweight caravans designed to withstand sudden sandstorms.",
@@ -213,7 +213,7 @@
             "symbol": "A snowflake‑shaped web",
             "colors": ["Ice Blue", "White"],
             "description": "A cold‑hearted spider‑based faction that rules through fear, precision, and icy discipline.",
-            "image": "images/frostweb-dominion.png",
+            "image": "images/frostweb-dominion-smallest.jpg",
             "dominantSpeciesId": 13,
             "lore": [
                 "The Frostweb Dominion was forged in the frozen caverns of the northern wastes, where ice spiders weave intricate webs that shimmer like crystal. Their society values precision, discipline, and emotional restraint, believing that cold logic is the key to survival in harsh climates.",
@@ -230,7 +230,7 @@
             "symbol": "A rolling beetle sphere",
             "colors": ["Emerald", "Brown"],
             "description": "A humble but influential group dedicated to recycling, renewal, and ecological stewardship.",
-            "image": "images/renewal-syndicate.png",
+            "image": "images/renewal-syndicate-smallest.jpg",
             "dominantSpeciesId": 14,
             "lore": [
                 "The Renewal Syndicate began as a humble group of beetles who believed that decay and rebirth were essential parts of the natural cycle. Over time, they evolved into a powerful ecological movement dedicated to restoring damaged lands and promoting sustainable practices.",
@@ -247,7 +247,7 @@
             "symbol": "A lightning‑charged wing",
             "colors": ["Blue", "White"],
             "description": "A daring order of storm‑riding dragonfly warriors who defend the skies from threats.",
-            "image": "images/tempestwing-vanguard.png",
+            "image": "images/tempestwing-vanguard-smallest.jpg",
             "dominantSpeciesId": 15,
             "lore": [
                 "The Tempestwing Vanguard was formed by elite dragonflies who mastered the art of navigating violent storm currents. Their training is grueling, requiring exceptional reflexes and unwavering courage. Only the most skilled fliers earn the right to wear the Vanguard’s lightning‑marked insignia.",
@@ -264,7 +264,7 @@
             "symbol": "A jagged trapdoor maw",
             "colors": ["Black", "Red"],
             "description": "A terrifying faction of ambush predators who strike from hidden pits beneath the earth.",
-            "image": "images/fangroot-burrow.png",
+            "image": "images/fangroot-burrow-smallest.jpg",
             "dominantSpeciesId": 16,
             "lore": [
                 "The Fangroot Burrow originated in the volcanic soil warrens where trapdoor spiders perfected the art of ambush. Their society is built around secrecy, patience, and the belief that true power lies in striking only when the moment is perfect. Generations of burrowlords have refined their techniques, creating an underground network of hidden tunnels and pressure‑sensitive traps that few outsiders survive.",

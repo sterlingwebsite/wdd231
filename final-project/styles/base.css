@@ -2,8 +2,8 @@
     /* colors */
     --text: rgb(0, 0, 0);
     --first-bg: rgb(158, 158, 158);
-    --second-bg: rgb(114, 114, 114);
-    --third-bg: rgb(78, 78, 78);
+    --second-bg: rgb(130, 130, 130);
+    --third-bg: rgb(114, 114, 114);
     --default-bg: rgb(255, 255, 255);
 }
 
@@ -15,10 +15,12 @@
     background-color: var(--default-bg);
     color: var(--text);
     border-radius: 10px;
+    font-family: "Caveat", cursive;
 }
 
 html {
     padding: 0;
+    background-color: var(--first-bg);
 }
 
 body {
@@ -46,12 +48,11 @@ header {
     align-items: center;
     gap: 1rem;
     padding: 0;
+    padding-top: 1rem;
     background-color: transparent;
 }
 
 .branding img {
-    width: 30px;
-    height: auto;
     background-color: transparent;
     padding: 0;
 }
@@ -63,7 +64,6 @@ nav ul {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
-    margin: 0;
     width: fit-content;
     align-items: center;
     border-radius: 0;
@@ -85,12 +85,11 @@ nav {
 #nav-bar.show {
     display: block;
     position: absolute;
-    top: 54px;
-    right: 0;
-    left: 0;
+    top: 85px;
+    right: 1rem;
     z-index: 500;
-    justify-items: right;
     background-color: transparent;
+    padding: 0;
 }
 
 #ham-btn {
@@ -123,7 +122,7 @@ nav {
 
 /* new stuff */
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     text-align: center;
     background-color: var(--first-bg);
 }
@@ -131,6 +130,7 @@ h2 {
 p {
     text-align: center;
     background-color: var(--first-bg);
+    font-size: 1.2rem;
 }
 
 section {
@@ -155,6 +155,7 @@ a {
     display: inline-block;
     border: 1px solid var(--text);
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 a:hover {
@@ -177,13 +178,13 @@ footer p {
     background-color: var(--first-bg);
 }
 
-#logo {
-    width: 20px;
-}
+/* #logo {
+    width: 30px;
+} */
 
 #site-name {
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 li {
@@ -197,4 +198,198 @@ li {
 
 #active {
     background-color: var(--third-bg);
+}
+
+#hero-img {
+    display: none;
+}
+
+#hero-heading-container {
+    flex-direction: column;
+}
+
+#footer-a-container {
+    flex-direction: column;
+}
+
+/* factions.html */
+.faction-card img {
+    width: 100%;
+    /* padding: 0; */
+    height: auto;
+    background-color: transparent;
+}
+
+#faction-container {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.faction-card h3 {
+    text-align: center;
+    background-color: transparent;
+}
+
+.faction-card {
+    background-color: var(--first-bg);
+    /* padding: 0; */
+    /* max-width: 230px; */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.faction-card:hover {
+    transform: translateY(-4px);
+}
+
+/* modal */
+#modalContent {
+    flex-direction: column;
+}
+
+#modalContent p {
+    padding: 0;
+}
+
+#modalContent h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#modalContent p strong, #modalContent h3 {
+    background-color: transparent;
+}
+
+#modalContent p strong {
+    padding: 1rem 0;
+}
+
+#factionModal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    max-width: 100%;
+    width: 90%;
+    background-color: var(--first-bg);
+    /* display: flex;
+    flex-direction: column;
+    gap: 1rem; */
+}
+
+.closeModal {
+    background-color: var(--second-bg);
+    font-size: 2rem;
+    border: 1px solid var(--text);
+    padding: 0.5rem 1.5rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#modal-inner {
+    flex-direction: column;
+}
+
+#modal-inner img {
+    width: 100%;
+    background-color: transparent;
+}
+
+/* media queries */
+@media (min-width: 800px)
+{
+    #ham-btn {
+        display: none;
+    }
+    
+    body {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    html {
+        background-color: var(--first-bg);
+    }
+
+    #site-name {
+        font-size: 2rem;
+    }
+
+    #logo {
+        width: 50px;
+        height: auto;
+    }
+
+    #branding {
+        width: 100%;
+        gap: 3rem;
+    }
+
+    #nav-bar {
+        display: flex;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+        border: none;
+        /* align-items: normal; */
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    .nav-bar-a {
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    #hero-img {
+        display: block;
+        padding: 0;
+        /* border: 1px solid var(--text); */
+    }
+
+    #hero-heading-container {
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+    }
+
+    #hero-heading-container > * {
+        background: rgba(158, 158, 158, 0.9);
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    #hero-heading-container h2 {
+        font-size: 3.9rem;
+        white-space: nowrap;
+        padding: 1rem 2rem;
+    }
+
+    #hero-heading-container p {
+        font-size: 2rem;
+    }
+
+    #footer-a-container {
+        flex-direction: row;
+    }
 }

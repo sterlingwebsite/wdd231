@@ -9,7 +9,7 @@
             "diet": "Carnivore",
             "dangerLevel": "Low",
             "description": "A swift aerial predator known for its iridescent wings and unmatched agility.",
-            "image": "images/azure-sky-hunter.png"
+            "image": "images/azure-sky-hunter-small.jpg"
         },
         {
             "id": 2,
@@ -20,7 +20,7 @@
             "diet": "Carnivore",
             "dangerLevel": "Medium",
             "description": "A patient ambush hunter revered in folklore as a silent forest guardian.",
-            "image": "images/emerald-reaper.png"
+            "image": "images/emerald-reaper-small.jpg"
         },
         {
             "id": 3,
@@ -31,7 +31,7 @@
             "diet": "Carnivore",
             "dangerLevel": "High",
             "description": "A nocturnal web‑spinner whose silk is prized for its strength and magical properties.",
-            "image": "images/shadow-weaver.png"
+            "image": "images/shadow-weaver-small.jpg"
         },
         {
             "id": 4,
@@ -42,7 +42,7 @@
             "diet": "Herbivore",
             "dangerLevel": "Medium",
             "description": "A heavily armored beetle capable of tunneling through compacted earth with ease.",
-            "image": "images/ironclad-burrower.png"
+            "image": "images/ironclad-burrower-small.jpg"
         },
         {
             "id": 5,
@@ -53,7 +53,7 @@
             "diet": "Herbivore",
             "dangerLevel": "Low",
             "description": "A gentle creature believed to carry omens in the patterns of its wings.",
-            "image": "images/duskwing-oracle.png"
+            "image": "images/duskwing-oracle-small.jpg"
         },
         {
             "id": 6,
@@ -64,7 +64,7 @@
             "diet": "Carnivore",
             "dangerLevel": "High",
             "description": "A territorial wasp known for its painful sting and aggressive swarming behavior.",
-            "image": "images/crimson-stinger.png"
+            "image": "images/crimson-stinger-small-small.jpg"
         },
         {
             "id": 7,
@@ -75,7 +75,7 @@
             "diet": "Carnivore",
             "dangerLevel": "Extreme",
             "description": "A venomous centipede that hunts in darkness, feared for its speed and toxicity.",
-            "image": "images/gloomcrawler.png"
+            "image": "images/gloomcrawler-small.jpg"
         },
         {
             "id": 8,
@@ -86,7 +86,7 @@
             "diet": "Carnivore",
             "dangerLevel": "High",
             "description": "A desert scorpion whose golden carapace reflects sunlight to blind predators.",
-            "image": "images/sunscale-scuttler.png"
+            "image": "images/sunscale-scuttler-small.jpg"
         },
         {
             "id": 9,
@@ -97,7 +97,7 @@
             "diet": "Omnivore",
             "dangerLevel": "Low",
             "description": "A cooperative species known for constructing vast underground colonies.",
-            "image": "images/verdant-harvester.webp"
+            "image": "images/verdant-harvester-small.jpg"
         },
         {
             "id": 10,
@@ -108,7 +108,7 @@
             "diet": "Omnivore",
             "dangerLevel": "Low",
             "description": "A bioluminescent insect whose glow intensifies during storms.",
-            "image": "images/nightfire-lantern.png"
+            "image": "images/nightfire-lantern-small.jpg"
         },
         {
             "id": 11,
@@ -119,7 +119,7 @@
             "diet": "Herbivore",
             "dangerLevel": "Low",
             "description": "A master of camouflage, blending seamlessly with branches and bark.",
-            "image": "images/thornback-strider.jpg"
+            "image": "images/thornback-strider-small.jpg"
         },
         {
             "id": 12,
@@ -130,7 +130,7 @@
             "diet": "Herbivore",
             "dangerLevel": "Low",
             "description": "A swift jumper capable of crossing long distances in a single bound.",
-            "image": "images/amber-dune-skipper.webp"
+            "image": "images/amber-dune-skipper-small.jpg"
         },
         {
             "id": 13,
@@ -141,7 +141,7 @@
             "diet": "Carnivore",
             "dangerLevel": "High",
             "description": "A cold‑adapted spider whose venom numbs its prey instantly.",
-            "image": "images/frostbite-crawler.jpg"
+            "image": "images/frostbite-crawler-small.jpg"
         },
         {
             "id": 14,
@@ -152,7 +152,7 @@
             "diet": "Detritivore",
             "dangerLevel": "Low",
             "description": "A beetle revered for its strength and symbolic connection to renewal.",
-            "image": "images/emerald-shell-roller.jpg"
+            "image": "images/emerald-shell-roller-small.jpg"
         },
         {
             "id": 15,
@@ -163,7 +163,7 @@
             "diet": "Carnivore",
             "dangerLevel": "Medium",
             "description": "A rare dragonfly that thrives in turbulent mountain winds.",
-            "image": "images/stormwing-skimmer.jpg"
+            "image": "images/stormwing-skimmer-small.jpg"
         },
         {
             "id": 16,
@@ -174,7 +174,7 @@
             "diet": "Carnivore",
             "dangerLevel": "Extreme",
             "description": "A burrowing predator that strikes from hidden pits with terrifying speed.",
-            "image": "images/obsidian-fanglurker.jpg"
+            "image": "images/obsidian-fanglurker-small.jpg"
         }
     ]
 }
