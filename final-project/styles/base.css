@@ -345,6 +345,7 @@ li {
     line-height: 2rem;
     font-size: 1.2rem;
     margin-left: 0.5rem;
+    border: 1px solid var(--text);
 }
 
 #creature-form label select option {
