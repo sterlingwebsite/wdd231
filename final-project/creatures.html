@@ -61,15 +61,13 @@
         <h1>Insect & Arthropod Bestiary</h1>
         <p id="site-description">Discover the creatures that inhabit this world.</p>
 
-        <section id="creature-list" class="grid">
+        <div id="creature-list" class="card-container"></div>
 
-        </section>
-
-        <section class="submit-creature">
+        <section id="submit-creature">
             <h2>Submit a New Creature</h2>
             <p>Contribute to the Codex by adding a new insect or arthropod species.</p>
 
-            <form method="get" action="creature-submitted.html" class="creature-form">
+            <form method="get" action="creature-submitted.html" id="creature-form">
                 <label>
                     Creature Name:
                     <input type="text" name="creatureName" required>
@@ -95,7 +93,7 @@
                     </select>
                 </label>
 
-                <button type="submit">Submit Creature</button>
+                <button type="submit" id="submit-creature-form-button">Submit Creature</button>
             </form>
         </section>
     </main>

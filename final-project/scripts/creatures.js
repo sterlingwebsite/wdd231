@@ -15,7 +15,7 @@ async function loadCreatures() {
 
         creatures.forEach(creature => {
             const card = document.createElement("article");
-            card.classList.add("creature-card");
+            card.classList.add("card");
 
             card.innerHTML = `
                 <img src="${creature.image}" alt="${creature.name}" loading="lazy">

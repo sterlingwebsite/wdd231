@@ -16,17 +16,17 @@
     }
 
     #site-name {
-        font-size: 2rem;
+        font-size: 5rem;
     }
 
     #logo {
-        width: 50px;
+        width: 80px;
         height: auto;
     }
 
     #branding {
         width: 100%;
-        gap: 3rem;
+        gap: 6rem;
     }
 
     #nav-bar {
@@ -35,12 +35,17 @@
         padding: 0;
     }
 
+    header {
+        gap: 2rem;
+    }
+
     nav ul {
         flex-direction: row;
         border: none;
         /* align-items: normal; */
         padding: 0;
         flex-wrap: nowrap;
+        gap: 8rem;
     }
 
     li {
@@ -50,15 +55,17 @@
     .nav-bar-a {
         width: 100%;
         text-align: center;
+        font-size: 3rem;
     }
 
-    p {
-        font-size: 1.4rem;
+    p, #creature-form label {
+        font-size: 1.7rem;
     }
 
     #hero-img {
         display: block;
         padding: 0;
+        filter: brightness(0.8);
         /* border: 1px solid var(--text); */
     }
 
@@ -72,7 +79,7 @@
     }
 
     #hero-heading-container > * {
-        background: rgba(158, 158, 158, 0.9);
+        background: rgba(85, 54, 43, 0.9);
     }
 
     .hero {
@@ -91,5 +98,97 @@
 
     #footer-a-container {
         flex-direction: row;
+    }
+
+    #factionModal {
+        width: 70%;
+    }
+
+    #modalContent {
+        display: grid;
+        grid-template-rows: repeat(8, auto);
+        grid-template-columns: auto auto 1fr;
+        align-items: start;
+        grid-template-areas: 
+        "faction-image faction-name faction-lore"
+        "faction-image faction-symbol faction-lore"
+        "faction-image faction-colors faction-lore"
+        "faction-image faction-territory faction-lore"
+        "species-image dominant-species faction-lore"
+        "species-image species faction-lore"
+        "species-image faction-leader faction-lore"
+        "species-image faction-alignment faction-lore"
+        ;
+    }
+
+    .faction-image { grid-area: faction-image; }
+    .faction-name { grid-area: faction-name; }
+    .faction-symbol { grid-area: faction-symbol; }
+    .faction-colors { grid-area: faction-colors; }
+    .faction-territory { grid-area: faction-territory; }
+    .faction-lore { grid-area: faction-lore; }
+    .species-image { grid-area: species-image; }
+    .dominant-species { grid-area: dominant-species; }
+    .species { grid-area: species; }
+    .faction-leader { grid-area: faction-leader; }
+    .faction-alignment { grid-area: faction-alignment; }
+
+    #modalContent > * {
+        width: fit-content;
+    }
+
+    #modalContent img {
+        width: 180px;
+    }
+
+    #close-modal-top {
+        display: none;
+    }
+
+    .lore-paragraph {
+        font-size: 1.7rem;
+    }
+
+    #modalContent p, #modalContent .dominant-species {
+        font-size: 1.9rem;
+    }
+
+    .dominant-species {
+        padding: 0;
+    }
+
+    ::backdrop {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .card h3 {
+        font-size: 1.6rem;
+    }
+
+    #creature-form {
+        /* justify-content: center; */
+        align-items: center;
+        gap: 2.1rem;
+    }
+
+    #creature-form label input, #creature-form label select {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    #submit-creature {
+        gap: 2rem;
+    }
+
+    h1, h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2.4rem;
+    }
+
+    a {
+        font-size: 2.4rem;
     }
 }

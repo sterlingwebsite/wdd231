@@ -1,9 +1,12 @@
 :root {
     /* colors */
-    --text: rgb(0, 0, 0);
-    --first-bg: rgb(158, 158, 158);
-    --second-bg: rgb(130, 130, 130);
-    --third-bg: rgb(114, 114, 114);
+    --text: #ffffff;
+    --first-bg: #55362b;
+    --test: #873e23;
+    --test2: #617b40;
+    --test3: #67171b;
+    --second-bg: #54663c;
+    --third-bg: #863f42;
     --default-bg: rgb(255, 255, 255);
 }
 
@@ -130,7 +133,7 @@ h1, h2 {
 p {
     text-align: center;
     background-color: var(--first-bg);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 section {
@@ -149,7 +152,7 @@ div {
     gap: 1rem;
 }
 
-a {
+a, button{
     background-color: var(--first-bg);
     text-decoration: none;
     display: inline-block;
@@ -158,9 +161,9 @@ a {
     font-size: 1.5rem;
 }
 
-a:hover {
+a:hover, button:hover {
     background-color: var(--third-bg);
-
+    cursor: pointer;
 }
 
 span {
@@ -177,10 +180,6 @@ footer p {
     padding: 1rem;
     background-color: var(--first-bg);
 }
-
-/* #logo {
-    width: 30px;
-} */
 
 #site-name {
     font-weight: bold;
@@ -213,36 +212,41 @@ li {
 }
 
 /* factions.html */
-.faction-card img {
+.card img {
     width: 100%;
     /* padding: 0; */
     height: auto;
     background-color: transparent;
 }
 
-#faction-container {
+.card-container {
     display: grid;
     justify-items: center;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-.faction-card h3 {
+.card h3 {
     text-align: center;
     background-color: transparent;
 }
 
-.faction-card {
+.card {
     background-color: var(--first-bg);
     /* padding: 0; */
     /* max-width: 230px; */
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    cursor: pointer;
-    transition: transform 0.2s ease;
 }
 
-.faction-card:hover {
+.card-clickable {
+    transition: transform 0.2s ease;
+    border: 1px solid var(--text);
+}
+
+.card-clickable:hover {
     transform: translateY(-4px);
+    background-color: var(--third-bg);
+    cursor: pointer;
 }
 
 /* modal */
@@ -289,6 +293,15 @@ li {
     margin: 0 auto;
 }
 
+.closeModal:hover {
+    background-color: var(--third-bg);
+    cursor: pointer;
+}
+
+.faction-lore {
+        display: block;
+    }
+
 #modal-inner {
     flex-direction: column;
 }
@@ -299,55 +312,70 @@ li {
 }
 
 /* creatures.html */
-.creature-card img {
-    width: 100%;
+.card p strong, .card p {
     background-color: transparent;
 }
 
-#creature-list {
-    background-color: transparent;
-}
-
-.creature-card {
+#submit-creature {
     background-color: var(--first-bg);
+    padding: 1rem;
 }
 
-.creature-card h3 {
-    background-color: transparent;
-    text-align: center;
+#submit-creature > * {
+    padding: 0;
 }
 
-.creature-card p strong {
-    background-color: transparent;
-}
-
-.creature-card p {
-    font-size: 1.3rem;
-}
-
-#site-description {
-    font-size: 1.3rem;
-}
-
-.submit-creature {
-    background-color: var(--first-bg);
-}
-
-.creature-form {
+#creature-form {
     border-radius: 0;
     background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.creature-form label {
+#creature-form label {
+    padding: 0;
+    font-size: 1.4rem;
     background-color: transparent;
 }
 
-.creature-form label input {
+#creature-form label input, #creature-form label select {
     background-color: transparent;
-    padding: 0.5;
+    padding: 0 0.5rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
 }
 
-.creature-form label input::placeholder {
+#creature-form label select option {
+    background-color: var(--first-bg);
+}
+
+/* #submit-creature-form-button {
+    background-color: var(--first-bg);
+    font-size: 1.5rem;
+    border: 1px solid var(--text);
+} */
+
+#creature-form label input::placeholder {
     color: var(--text);
     opacity: 1;
+}
+
+.attributions-section {
+    padding: 1rem;
+    background-color: var(--first-bg);
+}
+
+.attributions-section > * {
+    padding: 0;
+}
+
+.attributions-section h2 {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+
+.creature-submitted-info strong {
+    background-color: transparent;
 }

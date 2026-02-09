@@ -18,38 +18,59 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <!-- js -->
-    <script src="scripts/creature-submitted.js" defer></script>
+    <script src="scripts/creature-submitted.js"></script>
+    <script type="module" src="scripts/hamburger.js"></script>
+    <script type="module" src="scripts/footer-data.js"></script>
 
     <!-- favicon -->
     <link rel="icon" href="images/favicon.ico">
-    
+
+    <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">    
 </head>
 <body>
     <header>
-        <h1>Creatures</h1>
-        <nav>
-            <button id="menu"></button>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="factions.html">Factions</a></li>
-                <li><a href="creatures.html" class="active">Creatures</a></li>
+        <div class="branding" id="branding">
+            <img src="images/logo.svg" alt="Icon of an insect" id="logo" width="30" height="30">
+
+            <p class="site-name" id="site-name">Insect-World Codex</p>
+        
+            <button id="ham-btn" class="hamburger" type="button" aria-label="Navigation button"></button>
+        </div>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html" class="nav-bar-a">Home</a></li>
+
+                <li><a href="factions.html" class="nav-bar-a">Factions</a></li>
+
+                <li><a href="creatures.html" class="nav-bar-a" id="active">Creatures</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <p><strong>Name:</strong> <span id="name"></span></p>
-        <p><strong>Species:</strong> <span id="species"></span></p>
-        <p><strong>Habitat:</strong> <span id="habitat"></span></p>
-        <p><strong>Danger Level:</strong> <span id="Danger"></span></p>
+        <h1>Thank you for submitting your creature!</h1>
+        <p class="creature-submitted-info"><strong>Name:</strong> <span id="name"></span></p>
+        <p class="creature-submitted-info"><strong>Species:</strong> <span id="species"></span></p>
+        <p class="creature-submitted-info"><strong>Habitat:</strong> <span id="habitat"></span></p>
+        <p class="creature-submitted-info"><strong>Danger Level:</strong> <span id="danger"></span></p>
 
         <p><a href="creatures.html">Return to Creatures</a></p>
     </main>
 
     <footer>
-        <p>&copy; <span id="year"></span> World-Building Codex</p>
-        <p><a href="attributions.html">Attributions</a></p>
-        <p><a href="video.html">Project Video</a></p>
+        <p class="footer-js-data">&copy; <span id="current-year"></span> World-Building Codex</p>
+
+        <div id="footer-a-container">
+            <p class="footer-p"><a href="attributions.html">Attributions</a></p>
+
+            <p class="footer-p"><a href="video.html">Project Video</a></p>
+        </div>
+
+        <p class="footer-js-data">Last Modified: <span id="last-modified"></span></p>
     </footer>
 </body>
 </html>

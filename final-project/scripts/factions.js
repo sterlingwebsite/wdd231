@@ -31,7 +31,7 @@ async function loadFactions() {
 
         factions.forEach(faction => {
             const card = document.createElement("article");
-            card.classList.add("faction-card");
+            card.classList.add("card", "card-clickable");
 
             card.innerHTML = `
                 <img src="${faction.image}" alt="${faction.name}" loading="lazy">
@@ -57,20 +57,27 @@ function openFactionModal(faction, creaturesById) {
         .join("");
 
     modalContent.innerHTML = `
-        <img src="${faction.image}" alt="${faction.name}" loading="lazy">
+        <img src="${faction.image}" alt="${faction.name}" loading="lazy" class="faction-image">
 
-        <h2>${faction.name}</h2>
-        <p><strong>Symbol:</strong> ${faction.symbol}</p>
-        <p><strong>Colors:</strong> ${faction.colors.join(", ")}</p>
-        <p><strong>Territory:</strong> ${faction.territory}</p>
-        ${loreHTML}
+        <h2 class="faction-name">${faction.name}</h2>
 
-        <p><strong>Leader:</strong> ${faction.leader}</p>
-        <p><strong>Alignment:</strong> ${faction.alignment}</p>
+        <p class="faction-symbol"><strong>Symbol:</strong> ${faction.symbol}</p>
 
-        <h3>Dominant Species</h3>
-        <p><strong>${dominant.name}</strong> — ${dominant.species}</p>
-        <img src="${dominant.image}" alt="${dominant.name}" loading="lazy">
+        <p class="faction-colors"><strong>Colors:</strong> ${faction.colors.join(", ")}</p>
+
+        <p class="faction-territory"><strong>Territory:</strong> ${faction.territory}</p>
+
+        <div class="faction-lore">${loreHTML}</div>
+
+        <p class="faction-leader"><strong>Leader:</strong> ${faction.leader}</p>
+
+        <p class="faction-alignment"><strong>Alignment:</strong> ${faction.alignment}</p>
+
+        <h3 class="dominant-species">Dominant Species</h3>
+
+        <p class="species"><strong>${dominant.name}</strong> — ${dominant.species}</p>
+        
+        <img src="${dominant.image}" alt="${dominant.name}" loading="lazy" class="species-image">
     `;
 
     modal.showModal();
