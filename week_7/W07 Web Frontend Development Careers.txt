@@ -1,0 +1,93 @@
+Summary of first job description
+
+EMI Health
+Murray, UT
+Web Developer/Programmer
+https://www.ziprecruiter.com/Jobs/Entry-Level-Front-End-Web-Developer/--in-Utah?utm_source=copilot.com
+
+Qualification include:
+
+5+ years of professional web development experience, preferably in Microsoft/.NET environments
+Ability to gather requirements, meet with stakeholders, and translate business needs into technical specifications
+Strong ability to build, update, and maintain web, intranet, and mobile‑connected features
+Skilled in creating and maintaining APIs using modern .NET and REST standards
+Strong experience with SQL Server, including performance tuning, migrations, and writing complex queries
+Ability to write clear technical documentation
+Familiarity with secure coding practices, authentication/authorization, and OWASP guidelines
+Experience supporting CI/CD pipelines (Azure DevOps or GitHub Actions)
+Strong troubleshooting, debugging, and long‑term maintenance skills
+
+Specific technologies required include:
+
+Core Microsoft/.NET Stack
+.NET Framework & .NET Core
+VB.NET, ASP.NET, C#
+ASP.NET Core, Web APIs, .NET 8/9, Minimal APIs
+Entity Framework Core
+LINQ
+Frontend Technologies
+HTML / HTML5
+CSS
+JavaScript
+Blazor (preferred but not required)
+Database & Data Tools
+SQL Server
+SQL queries, performance tuning, migrations
+SQL integrations
+Entity Framework Core
+LINQ
+API & Integration Technologies
+REST API development
+OpenAPI / Swagger
+HTTP methods, status codes, versioning, error handling
+DevOps & Deployment
+Azure DevOps
+GitHub Actions
+CI/CD pipelines
+Multi‑stage deployments (Dev/Test/Prod)
+Security
+OWASP secure coding practices
+Modern authentication/authorization
+
+Summary of second job description
+LoanPro
+Farmington, UT
+Jr. Web Developer
+https://www.ziprecruiter.com/Jobs/Entry-Level-Front-End-Web-Developer/--in-Utah?utm_source=copilot.com&lk=s9uRq9kspEUr0I6eoWcRIQ
+
+Qualifications include:
+
+0–2 years of web development experience, including internships or personal projects
+Strong proficiency in HTML5, CSS3/SCSS, and JavaScript (ES6+)
+Ability to translate UI/UX mockups (Figma/Adobe XD) into pixel‑perfect, responsive web pages
+Experience managing and updating content in a Headless CMS (Strapi preferred)
+Ability to perform QA testing, troubleshoot bugs, and implement performance improvements
+Familiarity with Git/version control, NPM, and general package management
+Strong attention to detail and ability to follow established architecture and coding standards
+Portfolio demonstrating clean code, responsive layouts, and real project experience
+Strong communication skills and ability to collaborate with designers and marketing teams
+Curiosity, adaptability, and a “figure‑it‑out” mindset
+Ability to work onsite and thrive in a fast‑paced team environment
+Problem‑solving skills with the ability to propose and implement solutions
+
+Specific technologies required:
+
+Core Frontend Technologies
+HTML5
+CSS3 / SCSS
+JavaScript (ES6+)
+Frameworks & Tools
+Familiarity with JavaScript frameworks (not specified, but exposure expected)
+Git (version control)
+NPM (package management)
+CMS & Content Tools
+Strapi (Headless CMS)
+Design & Collaboration
+Ability to work from Figma or Adobe XD design files
+Strong eye for layout, spacing, and visual accuracy
+DevOps / Infrastructure
+Basic exposure to AWS (hosting, repos, CI/CD pipelines)
+Additional Preferred Technologies
+TypeScript
+SEO tools/practices
+Web performance optimization techniques
